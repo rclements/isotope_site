@@ -1,0 +1,432 @@
+html {background-color:#d3d3d3;}
+
+
+body {height:auto; width:auto; font: 62.5% Verdana, Arial, Helvetica, sans-serif; background:url(../images/body-bg.jpg) repeat-x; background-color:#ececec; margin: 0 auto;}
+
+a {border:none; outline:none;}
+
+body.internal {background:url(../images/body-bg-internal.png) repeat-x;  background-color:#ececec;}
+
+#main-wrap {width:1200px; margin: 0 auto;}
+
+#header {background:url(../images/header-bg.jpg) repeat-y; background-color:#15334d; height:444px; width:auto; margin: 0 auto; }
+
+#header-internal {background:url(../images/header-bg.jpg) repeat-y; background-color:#15334d; height:125px; width:auto; margin: 0 auto; }
+
+#internal-title {width:962px; margin:14px auto; font-family:'greyscalebasic', arial, sans serif;}
+#internal-title h2 {font-size:3.9em; color:#333333;s font-weight:lighter; margin: 0; padding: 0; font-family: 'greyscalebasic', arial, serif; }
+#internal-title h2.typeface-js {font-family:'greyscalebasic', arial, sans serif;}
+
+
+h2 {font-size:3.9em; color:#333333;s font-weight:lighter; padding: 0; font-family: 'greyscalebasic', arial, serif; margin: 20px 0 10px 0 ;}
+
+h2.typeface-js {font-family: "greyscalebasic", arial, serif;}
+.typeface-js {font-family: "greyscalebasic", arial, serif;}
+
+#title {width:962px; height:350px; margin: 0 auto;}
+#title h2 {color:#cfe0e7; font-size:5em; margin: 0; font-weight:normal; padding: 8px 0 0 20px; font-family: 'greyscalebasic', arial, serif;}
+#title h3 {float:left; font-size:1.7em; color:#c3c1c1; padding: 0 0 0 23px; line-height:1.8em; width:600px;}
+
+
+
+#title-bar {background:url(../images/title-bg.png) 3px 0; height:444px; margin:0; padding:0; width:1200px;}
+
+#title-bar-internal {background:url(../images/title-bg.png) 3px 0; height:125px; margin:0; padding:0; width:1200px;}
+
+#top-bar {width:960px; height:150px; margin: 0 auto;}
+
+h1 a {background:url(../images/logo.png) no-repeat; width:262px; height:126px; display:block; text-indent:-9999em; margin: 0; padding: 0; float:left;}
+
+/*----------------------------------------------------------------------------navigation-----------------------------*/
+
+#navigation {padding: 46px 5px 0 0; float:right;}
+
+ul.nav li {display:inline; float:left; padding: 0 0 0 15px;}
+
+li.home a {display:block; width:74px; height:45px; overflow:hidden; background:url(../images/home.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.home a:hover {background:url(../images/home.png) 0 0;}
+
+li.about a {display:block; width:74px; height:45px; overflow:hidden; background:url(../images/about.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.about a:hover {background:url(../images/about.png) 0 0;}
+li.about a.active {background:url(../images/about.png) 0 0;}
+
+li.work a {display:block; width:69px; height:45px; overflow:hidden; background:url(../images/work.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.work a:hover {background:url(../images/work.png) 0 0;}
+li.work a.active {background:url(../images/work.png) 0 0;}
+
+li.services a {display:block; width:88px; height:45px; overflow:hidden; background:url(../images/services.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.services a:hover {background:url(../images/services.png) 0 0;}
+li.services a.active {background:url(../images/services.png) 0 0;}
+
+li.clients a {display:block; width:77px; height:45px; overflow:hidden; background:url(../images/clients.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.clients a:hover {background:url(../images/clients.png) 0 0;}
+li.clients a.active {background:url(../images/clients.png) 0 0;}
+
+li.contact a {display:block; width:84px; height:45px; overflow:hidden; background:url(../images/contact.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.contact a:hover {background:url(../images/contact.png) 0 0;}
+li.contact a.active {background:url(../images/contact.png) 0 0;}
+
+li.payments a {display:block; width:97px; height:45px; overflow:hidden; background:url(../images/payments.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
+li.payments a:hover {background:url(../images/payments.png) 0 0;}
+li.payments a.active {background:url(../images/payments.png) 0 0;}
+
+
+/*--------------------------------------------------------------------------------content----------------------------------------*/
+
+#content-wrap {width:1200px; margin:0 auto;}
+
+#content-home {width:962px; height:auto; margin: 0 auto;}
+
+#content {margin: 0 auto 25px auto; width:962px; height:auto;}
+#content a {color:#3d606f;}
+#content a:hover {color:#000066}
+
+#content p {font-size:1.3em; margin: 0 0 11px 0; line-height:1.6em;}
+#content h3 {font-size:2.7em; margin: 10px 0 15px 0; font-weight:lighter; font-family: 'greyscalebasic', arial, serif;}
+#content h3.typeface-js {font-family: 'greyscalebasic', arial, serif;}
+
+#content h4 {font-size:1.6em; margin: 5px 0 10px 0; color:#003366; }
+#content h4.casestudy {font-size:1.9em;}
+
+#project-top {background:url(../images/project-top.png) no-repeat; height:12px; width:962; background-position:center;}
+#project-slider {background:url(../images/project-bg.png) no-repeat; height:321px; width:962px; margin: 0 auto;}
+
+#content .contact-title {font-size:2em; margin:0;}
+
+.content-left{float:right; margin: 5px 50px 0 0;}
+.content-left h3 {padding: 0 0 0 20px;}
+.content-left p {padding: 0 0 0 20px;}
+.content-left img {padding: 0 0 5px 0;}
+
+.contact-form {float:left; margin: 0 20px 0 0;}
+.contact-form label {font-size:1.3em;}
+.contact-form input {margin: 0 0 10px 0;}
+.contact-form textarea {margin: 0 0 10px 0;}
+
+
+.portfolio-text {width:450px; float:left;}
+.portfolio-listing {width:900px; height:300px;}
+.portfolio-listing img {margin: 0 0 0 15px;}
+
+.contact-form {font-size:1.1em; margin: 10px 0 0 0 ;}
+
+
+.profile-pic {width:165x; height:200px; display:block; float:left; margin: 10px 10px 0 0;}
+.profile {float:right; height:200px; width:780px; margin: 10px 0 0 0; padding:15px 0 0 0;}
+.profile p {margin:0; padding:0;}
+.profile h5 {margin:0; padding: 0 0 7px 0; margin: 0 0 3px 0; font-size:1.4em; color:#333333;  border-bottom:1px solid #cccccc; width:730px;}
+.profile h3 {font-size:1.8em; color:#666666; font-weight:lighter; margin: 0;}
+
+.pay-now {float:right; display:block}
+.img-right {float:right; padding: 15px 0 0 10px;}
+
+/*-------------------------------------------------work page-------------------------------------------------------------------*/
+
+
+.work-thumb {width:235px; height:auto; display:block; float:left; margin: 0 0 20px 0;}
+
+.work-text-single {}
+
+hr {color:#999999;}
+
+
+
+/*---------------------------------------------------------------------------------------------footer----------------------------------*/
+
+#footer {width:100%; background:url(../images/footer-bg.png) repeat-x; height:94px;}
+
+#footer-content-wrap {width:1200px; margin: 0 auto; display:block; height:94px;}
+
+#footer .footer-content {text-align:center; padding: 35px 0 0 0; color:#3d606f; font-size:1.1em;}
+
+#footer .footer-content li {display:inline; padding: 0 5px 0 0;}
+#footer .footer-content li a {color:#3d606f;}
+#footer .footer-content li a:hover {color:#000066;}
+
+/*--------------------------------------------------------------------slider---------------------------------------------------------*/
+	
+#slider { width: 500px; float:left; margin: 2px 0 0 22px;}
+#slider a {color:#3d606f;}
+#slider a:hover {color:#000066;}
+	
+#section01 { background:url(../images/thumb-fade.jpg) no-repeat;}
+#section01 p {width:300px; margin:5px 0 8px 275px; font-size:1.2em; line-height:1.7em; }
+#section01 h3 {margin:0 0 10px 275px; font-size:3em; color:#000033; font-family: 'Josefin Sans Std Light', arial, serif;}
+
+
+#section02 { background:url(../images/thumb-fade2.jpg) no-repeat;}
+#section02 p {width:300px; margin:5px 0 7px 275px; font-size:1.2em; line-height:1.7em;}
+#section02 h3 {margin:0 0 10px 275px; font-size:3em; color:#000033; font-family: 'Josefin Sans Std Light', arial, serif;}
+
+
+#section03 { background:url(../images/thumb-fade3.jpg) no-repeat;}
+#section03 p {width:300px; margin:5px 0 7px 275px; font-size:1.2em; line-height:1.7em;}
+#section03 h3 {margin:0 0 10px 275px; font-size:3em; color:#000033; font-family: 'Josefin Sans Std Light', arial, serif;}
+
+
+#section04 { background:url(../images/thumb-fade4.jpg) no-repeat;}
+#section04 p {width:300px; margin:5px 0 7px 275px; font-size:1.2em; line-height:1.7em;}
+#section04 h3 {margin:0 0 10px 275px; font-size:3em; color:#000033; font-family: 'Josefin Sans Std Light', arial, serif;}
+
+	
+#thumbnails { height:292px; width:300px; background:#777777; float:right; margin: 2px 20px 0 0;}	
+
+#thumbnails a img {margin: 4px 0 0 4px;}
+#thumbnails a:hover img {background:#000000;}
+	
+
+.scroll {
+    height: 292px;
+    width: 620px;
+    overflow: hidden;
+    overflow-x: hidden;
+    background: #f2f2f2;
+	position:relative;
+	display:block;
+	}
+
+.scrollContainer div.panel {
+    padding: 20px;
+    height: 292px;
+    width: 585px;
+	}
+
+#project-slider img.right {
+	float: right;
+	padding: 3px;
+	border: #ccc solid 1px;
+	margin: 0 0 0 15px;
+	}
+	
+#project-slider img.center {
+	padding: 0;
+	border: 0;
+	margin: 0 0 0 15px;
+	float: none;
+	}
+
+/*------------------------------------------ info grid ------------------------------------------------*/
+
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+
+#page-wrap { width: 962px; margin: 0 auto; height:auto; float:left; overflow:hidden; display:inherit; padding:20px 0 0 0; }
+
+.info-col { float: left; width: 160px; height: 100%; background:#ffffff; border:1px solid #eeeeee; }
+.info-col img {margin: 5px 0 0 56px;}
+
+.info-col h2 { text-align: center; font-weight: normal; padding: 25px 0; font-size:1.5em; }
+
+.image { height: 40px; display: block; font-size:1.5em; text-align:center; padding: 12px 0 0 0 ; text-decoration:none;}
+.image a {text-decoration:none;}
+
+
+dl { }
+dt { padding: 5px; background: #900; color: #ffffff; border-bottom: 1px solid white; border-right: 1px solid #eeeeee; }
+dd { position: absolute; left: -9999px; top: -9999px; width: 469px; background: #900; padding: 10px; color: #000000; border-right: 1px solid #eeeeee; }
+
+dt:nth-of-type(1) { background: #146283;  }
+dd:nth-of-type(1) { background: #cccccc; }
+
+dt:nth-of-type(2) { background: #3f8faa; }
+dd:nth-of-type(2) { background: #cccccc; }
+
+dt:nth-of-type(3) { background: #146283; }
+dd:nth-of-type(3) { background: #cccccc; }
+
+dt:nth-of-type(4) { background: #3f8faa; }
+dd:nth-of-type(4) { background: #cccccc; }
+
+dt:nth-of-type(5) { background: #146283; }
+dd:nth-of-type(5) { background: #cccccc; }
+
+dt:nth-of-type(6) { background: #294867; }
+dd:nth-of-type(6) { background: #294867; }
+
+.curCol { -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1; position: relative; }
+
+
+/*-----------------------------------------------mad lib form--------------------------------------------------------------*/
+
+
+form.contact {width:650px; float:left; line-height:2.5em;}
+
+label {
+	cursor: pointer; letter-spacing: 0.1428em;}
+
+	
+button {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.1428em;	/*  2px */
+	border: 3px double #666666 ;
+	padding:2px;
+	cursor: pointer;
+	-webkit-transition-property: color;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: .25s;
+	-moz-transition-property: color;
+	-moz-transition-property: background-color;
+	-moz-transition-duration: .25s;
+	transition-property: color;
+	transition-property: background-color;
+	transition-duration: .25s;
+}
+
+button:hover,
+button:focus {
+	color: #ffffff;
+	background-color: #0099CC;
+	border: 3px double #003399;
+}
+
+
+
+/* @group quotes */
+
+blockquote {
+	font-size: 1.2857em;		/* 18px */
+	line-height: 2em;		/* 30px */
+	margin-top:  0.6667em;		/* 12px */
+	margin-bottom: 0.6667em;	/* 12px */
+}
+
+
+blockquote p {
+	margin-top: 0.3333em;		/*  6px */
+	margin-bottom: 0.6667em;	/* 12px */
+}
+
+
+
+form blockquote {
+	font-style: normal;
+}
+form blockquote fieldset {
+	margin-top: 0.1111em;		/*  2px */
+	margin-bottom: 1.1111em;	/* 20px */
+	color: #666;
+}
+form blockquote fieldset label {
+	color: #000;
+	display: inline;
+	font-variant: normal;
+	letter-spacing: normal;
+}
+form blockquote input {
+	background-color: transparent;
+	border: none;
+	border-bottom: 0.1em dashed #000000;
+	font-style: normal;
+	margin: 0 0.5em;
+}
+
+
+form blockquote input.description-field {width:350px;}
+
+
+form blockquote input:focus {
+	border-bottom: 0.0714em solid #ccc;		/* 1px */
+}
+form blockquote .passwordtoggle {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/*--------------------------------------new fader------------------------------------------------------*/
+
+
+
+
+
+div#header-slide {
+margin : -1px 0 0;
+}
+
+#header-slide a {color:#ffffff;}
+
+div#video-header {
+height : 683px;
+margin : -1px 0 0;
+}
+
+div#header-slide div.wrap {
+height : 300px;
+background : url(images/header-bg.png) no-repeat 50% 0;
+}
+
+div#header-slide div#slide-holder {
+z-index : 40;
+width : 930px;
+height : 299px;
+position : absolute;
+}
+
+div#header-slide div#slide-holder div#slide-runner {
+top: 2px;
+left : 16px;
+width : 930px;
+height : 295px;
+overflow : hidden;
+position : absolute;
+}
+
+div#header-slide div#slide-holder img {
+margin : 0;
+display : none;
+position : absolute;
+}
+
+div#header-slide div#slide-holder div#slide-controls {
+left : 0;
+bottom : 18px;
+width : 930px;
+height : 46px;
+display : none;
+position : absolute;
+background : url(../images/slide-bg.png) 0 0;
+}
+
+div#header-slide div#slide-holder div#slide-controls p.text {
+float : left;
+color : #fff;
+display : inline;
+font-size : 1.6em;
+line-height : 16px;
+margin : 15px 0 0 20px;
+
+}
+div#header-slide div#slide-holder div#slide-controls p#slide-nav {
+float : right;
+height : 24px;
+display : inline;
+margin : 11px 15px 0 0;
+}
+div#header-slide div#slide-holder div#slide-controls p#slide-nav a {
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+line-height : 24px;
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+div#header-slide div#slide-holder div#slide-controls p#slide-nav a.on {
+background-position : 0 -24px;
+}
+div#header-slide div#slide-holder div#slide-controls p#slide-nav a {
+background-image : url(../images/silde-nav.png);
+}
+div#nav ul li a {
+background : url(images/nav.png) no-repeat;
+}
