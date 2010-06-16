@@ -19,14 +19,23 @@
       <div id="title-bar-internal">
           <div id="top-bar">
         <h1><a href="index.html">Isotope11</a></h1>
+              <div id="user_nav">
+                <% if !current_user %>
+                  <%= link_to "Register", new_account_path %>
+                  <%= link_to "Login", new_user_session_path %>
+                <% else %>
+                  <%= link_to "My Account", edit_user_path(:current) %>
+                  <%= link_to "Logout", logout_path %>
+                <% end %> 
+               </div>
           <div id="navigation">
         <ul class="nav">
               <li class="home"><a href="/">Home</a></li>
-              <li class="about"><a href="about">About Us</a></li>
-              <li class="work"><a href="work">Work</a></li>
-              <li class="services"><a href="services">Services</a></li>
-              <li class="contact"><a href="contact">Contact</a></li>
-              <li class="payments"><a href="payments">Payments</a></li>
+              <li class="about"><a href="/home/about">About Us</a></li>
+              <li class="work"><a href="/home/work">Work</a></li>
+              <li class="services"><a href="/home/services">Services</a></li>
+              <li class="contact"><a href="/home/contact">Contact</a></li>
+              <li class="payments"><a href="/home/payments">Payments</a></li>
             </ul>
           </div>
           </div>
