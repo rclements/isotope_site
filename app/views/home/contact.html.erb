@@ -1,0 +1,64 @@
+       <div id="internal-title">
+        
+        <div class="content-left">
+        
+        <img src="/images/contact-img.png" alt="contact image" />
+         
+      
+          <p class="contact-title">Isotope11</p>
+          <p>529 Beacon Pkwy W - Suite 105<br />
+           Birmingham, AL 35209<br />
+           p: 205.742.9671<br />
+           f: 205.943.5760<br />
+           e: <a href="mailto:info@isotope11.com">info@isotope11.com</a></p>
+          </div>
+        	
+	      <h2 class="typeface-js">Contact Us</h2>
+        </div>
+         <p>For business inquiries, please contact us directly or just fill out our simple contact form</p>
+         
+	      <!--div class="contact-form">
+  		    <form action="http://www.isotope11.com/contact.html" class="contact" method="post">
+             <div>
+             	<input name="authenticity_token" type="hidden" value="HrHDHAR2VvnAYB/0bISS3SDcHmh8Ib3BfJV/NuzSxD4=" />
+             </div>
+    	     <div>
+    		    <label for="contact_handler_subject">Subject</label><br />
+      			<input id="contact_handler_subject" name="contact_handler[subject]" size="30" type="text" />
+    		 </div>
+             <div>
+      		    <label for="contact_handler_body">Body</label><br />
+      			<textarea cols="60" id="contact_handler_body" name="contact_handler[body]" rows="5"></textarea>
+    		 </div>
+    		 <div>
+     		   <label for="contact_handler_email">Email</label><br />
+      		   <input id="contact_handler_email" name="contact_handler[email]" size="30" type="text" />
+    		 </div>
+    		 <div>
+       		   <input id="contact_handler_submit" name="commit" type="submit" value="send" />
+    		 </div>
+  			</form>
+            
+		  </div-->
+            <br /><br /> 
+                  
+            <% form_tag do |f| %>
+            <blockquote>
+			<fieldset>
+			Hey! My <label for="user_nickname">name</label> is <input type="text" name="user[nickname]" id="user_nickname" value="" />
+            and I was hoping to <label for="text">talk</label> to you guys in order to <input type="text" name="text" id="text" class="description-field" value="" />.<br />
+            </fieldset>
+            <fieldset>
+            By the way, my contact <label for="user_email">email address</label> is <input type="text" name="user[email]" id="user_email" value="" /> and I <label for="work">work</label> 				            with <input type="text" name="company" id="company" value="" />
+            </fieldset>
+            
+            <fieldset>
+          
+          
+          
+            </fieldset>
+            </blockquote>
+            <br />
+            <button type="submit">Submit</button>
+          <% end %>
+            

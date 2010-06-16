@@ -12,6 +12,10 @@ class HomeController < ApplicationController
   end
 
   def contact
+    if request.post?
+      UserMailer.deliver_contact_email(params[:user]["nickname"], params[:text], params[:user]["email"], params[:company])
+      flash.now[:notice] = "Email sent successfully."
+    end
   end
 
   def payments

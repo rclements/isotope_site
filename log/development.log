@@ -16390,3 +16390,294 @@ Processing HomeController#contact (for 127.0.0.1 at 2010-06-15 14:50:26) [GET]
 Rendering template within layouts/subpage
 Rendering home/contact
 Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-15 16:49:04) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-15 16:49:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#emailer (for 127.0.0.1 at 2010-06-15 16:49:09) [GET]
+
+ActionController::UnknownAction (No action responded to emailer. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-15 16:49:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 08:47:10) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 57ms (View: 54, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-16 08:49:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-16 08:49:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 08:50:00) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 23ms (View: 20, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 08:50:24) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 08:53:38) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 09:20:48) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 09:20:58) [POST]
+  Parameters: {"company"=>"boobies", "authenticity_token"=>"HrHDHAR2VvnAYB/0bISS3SDcHmh8Ib3BfJV/NuzSxD4=", "text"=>"touch your boobs", "user"=>{"nickname"=>"asdf", "email"=>"boobs@foo.com"}}
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+
+Rendered rescues/_trace (55.9ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (unprocessable_entity)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 09:21:37) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+ERROR: compiling _run_erb_app47views47home47contact46html46erb RAISED compile error
+/home/robby/railapp/isotope_site/app/views/home/contact.html.erb:71: syntax error, unexpected kENSURE, expecting kEND
+/home/robby/railapp/isotope_site/app/views/home/contact.html.erb:73: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47home47contact46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "       <div id=\"internal-title\">\n        \n        <div class=\"content-left\">\n        \n        <img src=\"/images/contact-img.png\" alt=\"contact image\" />\n         \n      \n          <p class=\"contact-title\">Isotope11</p>\n          <p>529 Beacon Pkwy W - Suite 105<br />\n           Birmingham, AL 35209<br />\n           p: 205.742.9671<br />\n           f: 205.943.5760<br />\n           e: <a href=\"mailto:info@isotope11.com\">info@isotope11.com</a></p>\n          </div>\n        \t\n\t      <h2 class=\"typeface-js\">Contact Us</h2>\n        </div>\n         <p>For business inquiries, please contact us directly or just fill out our simple contact form</p>\n         \n\t      <!--div class=\"contact-form\">\n  \t\t    <form action=\"http://www.isotope11.com/contact.html\" class=\"contact\" method=\"post\">\n             <div>\n             \t<input name=\"authenticity_token\" type=\"hidden\" value=\"HrHDHAR2VvnAYB/0bISS3SDcHmh8Ib3BfJV/NuzSxD4=\" />\n             </div>\n    \t     <div>\n    \t\t    <label for=\"contact_handler_subject\">Subject</label><br />\n      \t\t\t<input id=\"contact_handler_subject\" name=\"contact_handler[subject]\" size=\"30\" type=\"text\" />\n    \t\t </div>\n             <div>\n      \t\t    <label for=\"contact_handler_body\">Body</label><br />\n      \t\t\t<textarea cols=\"60\" id=\"contact_handler_body\" name=\"contact_handler[body]\" rows=\"5\"></textarea>\n    \t\t </div>\n    \t\t <div>\n     \t\t   <label for=\"contact_handler_email\">Email</label><br />\n      \t\t   <input id=\"contact_handler_email\" name=\"contact_handler[email]\" size=\"30\" type=\"text\" />\n    \t\t </div>\n    \t\t <div>\n       \t\t   <input id=\"contact_handler_submit\" name=\"commit\" type=\"submit\" value=\"send\" />\n    \t\t </div>\n  \t\t\t</form>\n            \n\t\t  </div-->\n            <br /><br /> \n                  \n            "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;  form_tag do |f| ; @output_buffer.concat "\n            <form action=\"\" class=\"contact\" method=\"post\">\t\t\t\n            <div>\n          \t<input name=\"authenticity_token\" type=\"hidden\" value=\"HrHDHAR2VvnAYB/0bISS3SDcHmh8Ib3BfJV/NuzSxD4=\" />\n            </div>\n            \n            <blockquote>\n\t\t\t<fieldset>\n\t\t\tHey! My <label for=\"user_nickname\">name</label> is <input type=\"text\" name=\"user[nickname]\" id=\"user_nickname\" value=\"\" />\n            and I was hoping to <label for=\"text\">talk</label> to you guys in order to <input type=\"text\" name=\"text\" id=\"text\" class=\"description-field\" value=\"\" />.<br />\n            </fieldset>\n            <fieldset>\n            By the way, my contact <label for=\"user_email\">email address</label> is <input type=\"text\" name=\"user[email]\" id=\"user_email\" value=\"\" /> and I <label for=\"work\">work</label> \t\t\t\t            with <input type=\"text\" name=\"company\" id=\"company\" value=\"\" />\n            </fieldset>\n            \n            <fieldset>\n          \n          \n          \n            </fieldset>\n            </blockquote>\n            <br />\n            <button type=\"submit\">Submit</button>\n            </form>\n            \n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/robby/railapp/isotope_site/app/views/home/contact.html.erb:73:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/debugger.rb:19:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/robby/railapp/isotope_site/app/views/home/contact.html.erb:71: syntax error, unexpected kENSURE, expecting kEND
+/home/robby/railapp/isotope_site/app/views/home/contact.html.erb:73: syntax error, unexpected $end, expecting kEND) on line #71 of app/views/home/contact.html.erb:
+68:             </form>
+69:             
+
+    app/views/home/contact.html.erb:73:in `compile!'
+
+Rendered rescues/_trace (61.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 09:21:57) [GET]
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/home/contact]
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 09:22:00) [POST]
+  Parameters: {"company"=>"", "authenticity_token"=>"E7Pw1BVgI2tElWoePrLWhv3EPiUYYYDf77Ef+dxnx8U=", "text"=>"", "user"=>{"nickname"=>"", "email"=>""}}
+
+NameError (undefined local variable or method `user' for #<UserMailer:0xb6a43164>):
+  app/models/user_mailer.rb:14:in `setup_email'
+  app/models/user_mailer.rb:3:in `contact_email'
+  app/controllers/home_controller.rb:16:in `contact'
+
+Rendered rescues/_trace (56.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-06-16 09:22:13) [POST]
+  Parameters: {"company"=>"sadf", "authenticity_token"=>"E7Pw1BVgI2tElWoePrLWhv3EPiUYYYDf77Ef+dxnx8U=", "text"=>"asdf", "user"=>{"nickname"=>"sdf", "email"=>"sdf"}}
+Sent mail to info@isotope11.com
+
+Date: Wed, 16 Jun 2010 09:22:13 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+sdf | asdf | sdf | sadf
+Rendering template within layouts/subpage
+Rendering home/contact
+Completed in 26ms (View: 3, DB: 0) | 200 OK [http://localhost/home/contact]
