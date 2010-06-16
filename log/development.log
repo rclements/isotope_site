@@ -22089,3 +22089,98 @@ Processing HomeController#about (for 127.0.0.1 at 2010-06-16 13:59:20) [GET]
 Rendering template within layouts/subpage
 Rendering home/about
 Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+Completed in 98ms (View: 95, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_laird_foret", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_josh_adams", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_james_cook", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_nick_fine", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_adam_dill", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_robby_clements", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about-heitzke", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_adam_gamble", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#images to png (for 127.0.0.1 at 2010-06-16 15:37:06) [GET]
+  Parameters: {"format"=>"png", "action"=>"images", "id"=>"about_bradley_price", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to images. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-06-16 15:37:50) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/home/about]

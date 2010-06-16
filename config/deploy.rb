@@ -4,7 +4,7 @@ set :use_sudo, false
 
 set :repository,  "git@github.com:rclements/isotope_site.git"
 set :deploy_to, "/var/www/#{application}"
-set :scm, :subversion, :git
+set :scm, :git
 set :git_enable_submodules, 1
 set :git_username, "rclements"
 
@@ -12,10 +12,10 @@ set :port, 3000
 set :location, "localhost"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-#role :web, "127.0.0.1"                          # Your HTTP server, Apache/etc
-#role :app, "127.0.0.1"                          # This may be the same as your `Web` server
-#role :db,  "127.0.0.1", :primary => true # This is where Rails migrations will run
-#role :db,  "127.0.0.1"
+role :web, "localhost"                          # Your HTTP server, Apache/etc
+role :app, "localhost"                          # This may be the same as your `Web` server
+role :db,  "localhost", :primary => true # This is where Rails migrations will run
+role :db,  "localhost"
 
 # If you are using Passenger mod_rails uncomment this:
 # if you're still using the script/reapear helper you will need
