@@ -1,5 +1,5 @@
 set :application, "isotope11.com"
-set :user, "deployer"
+set :user, "robby"
 set :use_sudo, false
 
 set :repository,  "git@github.com:rclements/isotope_site.git"
@@ -8,7 +8,7 @@ set :scm, :git
 set :git_enable_submodules, 1
 set :git_username, "rclements"
 
-set :port, 3000
+#set :port, 3000
 set :location, "localhost"
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
@@ -72,9 +72,8 @@ namespace :deploy do
 
   after "deploy", "deploy:cleanup"
 
-#   task :start do ; end
-#   task :stop do ; end
-#   task :restart, :roles => :app, :except => { :no_release => true } do
-#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-#   end
-# end
+   task :start do ; end
+   task :stop do ; end
+   task :restart, :roles => :app, :except => { :no_release => true } do
+     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+end
