@@ -22220,3 +22220,145 @@ Migrating to RolesUsers (20100616183037)
   [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("roles")[0m
   [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("roles_users")[0m
   [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:57:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 97ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:57:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:58:00) [GET]
+
+ActionController::RoutingError (No route matches "/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:58:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:58:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 27ms (View: 24, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:58:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:58:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 22ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:58:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:58:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:58:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-06-17 11:58:43) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+Completed in 78ms (View: 75, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-06-17 11:58:45) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-06-17 11:58:59) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+Completed in 27ms (View: 24, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:59:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 64ms (View: 61, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:59:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:59:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:59:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-06-17 11:59:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-17 11:59:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
