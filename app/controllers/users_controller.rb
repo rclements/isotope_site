@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  before_filter :require_no_user, :only => [:new, :create]
-  before_filter :require_user, :only => [:destroy, :edit, :update]
+  #before_filter :require_no_user, :only => [:new, :create]
+  before_filter :require_user, :only => [:create, :destroy, :edit, :update]
   layout 'subpage'
 
   def new

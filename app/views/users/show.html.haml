@@ -1,4 +1,4 @@
-%h2 Customer Site
+%h2 #{@user.username.capitalize}
 
 - if current_user.has_role?(:admin, @file_attachment)
   = link_to "Add File Attachment", new_file_attachment_path(:user_id => @user.id)
