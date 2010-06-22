@@ -9,7 +9,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100616183037) do
+ActiveRecord::Schema.define(:version => 20100621170313) do
+
+  create_table "file_attachments", :force => true do |t|
+    t.integer  "user_id"
+    t.string   "attachment_file_file_content_type"
+    t.integer  "attachment_file_file_size"
+    t.datetime "attachment_file_file_updated_at"
+    t.string   "attachment_file_file_name"
+  end
 
   create_table "roles", :force => true do |t|
     t.string   "name",              :limit => 40

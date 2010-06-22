@@ -28,12 +28,14 @@
             <div id="top-bar">
               <h1><a href="/">Isotope11</a></h1>
               <div id="user_nav">
-                <% if !current_user %>
-                  <%= link_to "Register", new_account_path %>
-                  <%= link_to "Login", new_user_session_path %>
-                <% else %>
-                  <%= link_to "My Account", edit_user_path(:current) %> 
+                <% if current_user %>
+                  <%= link_to "My Account", user_path(current_user) %> 
                   <%= link_to "Logout", logout_path %> 
+                <% if current_user.has_role?(:admin, @user)%>
+                  <%= link_to "New User", new_user_path %>
+                <% end %>
+                <% else %>
+                 <%= link_to "Login", new_user_session_path %>
                 <% end %>  
               </div>
               <div id="navigation">

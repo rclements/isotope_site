@@ -18,15 +18,15 @@ class UsersController < ApplicationController
   end
   
   def show
-    @user = @current_user
+    @user = User.find(params[:id])
   end
  
   def edit
-    @user = @current_user
+    @user = current_user
   end
   
   def update
-    @user = @current_user
+    @user = current_user
     if @user.update_attributes(params[:user])
       flash[:notice] = "Account updated!"
       redirect_to root_url
@@ -34,4 +34,5 @@ class UsersController < ApplicationController
       render :action => :edit
     end
   end
+
 end

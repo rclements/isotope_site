@@ -1,23 +1,12 @@
-%b Login:
-/= @user.username
- 
-/%b Login count:
-/= @user.login_count
- 
-/%b Last request at:
-/= @user.last_request_at
- 
-/%b Last login at:
-/= @user.last_login_at
- 
-/%b Current login at:
-/= @user.current_login_at
- 
-/%b Last login ip:
-/= @user.last_login_ip
- 
-/%b Current login ip:
-/= @user.current_login_ip
- 
- 
-= link_to 'Edit', edit_account_path
+%h2 Customer Site
+
+- if current_user.has_role?(:admin, @file_attachment)
+  = link_to "Add File Attachment", new_file_attachment_path(:user_id => @user.id)
+%br
+%br
+
+- @user.file_attachments.each do |file_attachment|
+  = link_to file_attachment.attachment_file_file_name, file_attachment_path(file_attachment.id)
+%br      
+%br
+= link_to 'Change Password', edit_user_path
