@@ -6,7 +6,11 @@
 %br
 
 - @user.file_attachments.each do |file_attachment|
-  = link_to file_attachment.attachment_file_file_name, file_attachment_path(file_attachment.id)
+  %li= link_to file_attachment.attachment_file_file_name, file_attachment_path(file_attachment.id)
 %br      
 %br
 = link_to 'Change Password', edit_user_path
+%br
+- if current_user.has_role?(:admin, @file_attachment)
+  %h2 Admin Dashboard
+  = link_to 'Clients List', users_path

@@ -30,7 +30,7 @@ class FileAttachmentsController < ApplicationController
 
   def create
     @user = User.find(params[:user_id])
-    if @user && @user == current_user && @file_attachment.save
+    if @file_attachment.save
       flash[:notice] = "File Attachment created successfully."
       current_user.has_role!(:admin, @file_attachment)
       redirect_to user_path(@user)
