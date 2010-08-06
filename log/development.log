@@ -32920,6 +32920,7 @@ Rendering home/payments
   [4;36;1mRole Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `roles`[0m
   [4;35;1mRole Load (0.1ms)[0m   [0mSELECT `roles`.* FROM `roles` INNER JOIN `roles_users` ON `roles`.id = `roles_users`.role_id WHERE (`roles`.`name` = 'admin') AND (`roles_users`.user_id = 1 ) LIMIT 1[0m
 Completed in 90ms (View: 86, DB: 1) | 200 OK [http://localhost/home/payments]
+<<<<<<< HEAD:log/development.log
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
   [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
 
@@ -32930,10 +32931,3748 @@ Rendering template within layouts/application
 Rendering home/index
   [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
 Completed in 66ms (View: 62, DB: 1) | 200 OK [http://localhost/]
+=======
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:31:52) [GET]
+
+ActionController::RoutingError (No route matches "/session/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:31:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 93ms (View: 89, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:32:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:32:04) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 53ms (View: 48, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 15:32:07) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:32:52) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 15:32:58) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 15:33:03) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 42, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 15:33:09) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:33:13) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 117ms (View: 113, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 15:33:18) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 37, DB: 1) | 200 OK [http://localhost/home/services]
   [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
 
 
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 15:38:05) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 30, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 15:38:08) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 116ms (View: 112, DB: 2) | 200 OK [http://localhost/home/work_insight]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 15:38:13) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 30, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 15:38:33) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/home/work_insight]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:38:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 27, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:38:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 15:38:50) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:38:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:38:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-08-04 15:39:35) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/subpage
+Rendering user_sessions/new
+Completed in 110ms (View: 85, DB: 1) | 200 OK [http://localhost/user_session/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:39:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 40, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:39:40) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:45:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:45:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-04 15:45:24) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 117ms (View: 112, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-04 15:46:15) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 15:46:23) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 30ms (View: 26, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:46:25) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:48:54) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 37, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 15:48:58) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:49:02) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 15:49:04) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:49:06) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:49:49) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 125ms (View: 120, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 15:49:56) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 15:49:58) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 30ms (View: 26, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 15:50:03) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 109ms (View: 105, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:51:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:51:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 15:52:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 30, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 15:52:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 15:52:09) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 15:52:12) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/work_insight]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:05:42) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 98ms (View: 94, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:05:48) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 39, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:05:51) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 30ms (View: 26, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:05:56) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 107ms (View: 103, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 16:05:59) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:06:04) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 16:06:06) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 30ms (View: 26, DB: 2) | 200 OK [http://localhost/home/work_insight]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 16:09:14) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 121ms (View: 117, DB: 1) | 200 OK [http://localhost/home/work_insight]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 16:10:07) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/work_insight]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:10:09) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 113ms (View: 109, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:10:10) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_financial (for 127.0.0.1 at 2010-08-04 16:10:12) [GET]
+  Parameters: {"action"=>"work_financial", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_financial
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/work_financial]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:10:51) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 37, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:11:03) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 41, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_financial (for 127.0.0.1 at 2010-08-04 16:11:09) [GET]
+  Parameters: {"action"=>"work_financial", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_financial
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 97ms (View: 92, DB: 1) | 200 OK [http://localhost/home/work_financial]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:11:16) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 29, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:11:18) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:11:22) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 16:11:25) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:11:27) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_financial (for 127.0.0.1 at 2010-08-04 16:22:27) [GET]
+  Parameters: {"action"=>"work_financial", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_financial
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/work_financial]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:22:31) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-04 16:22:32) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 33, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:22:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:22:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_aiua (for 127.0.0.1 at 2010-08-04 16:22:54) [GET]
+  Parameters: {"action"=>"work_aiua", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_aiua
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 33, DB: 1) | 200 OK [http://localhost/home/work_aiua]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:22:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 16:22:59) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/home/work_insight]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:23:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 121ms (View: 117, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_insight (for 127.0.0.1 at 2010-08-04 16:23:21) [GET]
+  Parameters: {"action"=>"work_insight", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_insight
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 2) | 200 OK [http://localhost/home/work_insight]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:23:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:23:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:23:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:24:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:24:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#financial (for 127.0.0.1 at 2010-08-04 16:24:11) [GET]
+  Parameters: {"action"=>"financial", "controller"=>"home"}
+
+ActionController::UnknownAction (No action responded to financial. Actions: about, clients, contact, index, payments, services, sub, work, work_acolleague, work_aidt, work_aiua, work_creative_catering, work_deep_south_fibers, work_in_the_making, work_insight, work_luvnotes, work_maralyn_wilson, work_political_inquirer, and work_sportgraphics):
+  haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:24:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:24:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 44ms (View: 38, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:24:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_financial (for 127.0.0.1 at 2010-08-04 16:24:34) [GET]
+  Parameters: {"action"=>"work_financial", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_financial
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://localhost/home/work_financial]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:24:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 101ms (View: 97, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:24:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:26:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:26:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:26:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 115ms (View: 111, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:26:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:27:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 35, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:27:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:28:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 39, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:28:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:28:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:28:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-04 16:28:36) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-04 16:32:10) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:32:14) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 102ms (View: 97, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:32:15) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 30, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:39:51) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:39:52) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 26, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:40:00) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:40:00) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:42:11) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:42:11) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 108ms (View: 103, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:42:20) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 30, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:42:59) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-04 16:43:11) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 116ms (View: 112, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:46:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:46:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:47:23) [GET]
+
+ActionController::RoutingError (No route matches "/css/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-04 16:50:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-04 16:50:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-04 16:50:08) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 37, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-04 16:52:23) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 34, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-04 16:52:39) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 112ms (View: 108, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-04 16:52:57) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 08:45:06) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 08:45:11) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 120ms (View: 115, DB: 2) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 08:45:16) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 08:45:18) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 08:45:20) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 129ms (View: 125, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 08:45:23) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 48ms (View: 43, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 08:45:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 08:45:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2010-08-05 08:50:46) [GET]
+  Parameters: {"action"=>"new", "controller"=>"user_sessions"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/subpage
+Rendering user_sessions/new
+Completed in 35ms (View: 8, DB: 1) | 200 OK [http://localhost/user_session/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 08:50:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 08:50:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 08:50:55) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 105ms (View: 100, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 09:15:09) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 09:15:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 09:15:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 09:15:49) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 107ms (View: 103, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 09:15:50) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 40, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 09:15:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 09:16:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 09:32:08) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 35, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 09:32:11) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 36, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 09:32:11) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 09:32:50) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 09:33:37) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 36, DB: 2) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 09:33:38) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 09:33:40) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 26, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 09:33:45) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 107ms (View: 103, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 09:33:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 09:33:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 09:44:19) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 37, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 09:44:21) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 107ms (View: 102, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 09:45:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 09:45:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 09:45:52) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 09:45:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 09:45:56) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 106ms (View: 102, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 09:45:57) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 32, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 09:46:46) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 10:42:59) [GET]
+
+ActionController::RoutingError (No route matches "/potsdam/potsdam_credit_applications" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 10:43:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 102ms (View: 98, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 10:43:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 10:48:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 37, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 10:48:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 10:48:26) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 56ms (View: 52, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_financial (for 127.0.0.1 at 2010-08-05 10:48:30) [GET]
+  Parameters: {"action"=>"work_financial", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_financial
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 37, DB: 2) | 200 OK [http://localhost/home/work_financial]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 10:48:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 10:48:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 10:48:37) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 99ms (View: 95, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 10:48:39) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 10:48:41) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 10:48:42) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 10:48:44) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 46ms (View: 41, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 10:48:46) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 41, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 10:48:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 30ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 10:48:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 10:48:59) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 33, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 10:53:26) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 51ms (View: 47, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 10:53:28) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 31ms (View: 27, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 10:55:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 128ms (View: 124, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 10:55:13) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 10:57:27) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 34, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 10:57:31) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 112ms (View: 108, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 10:57:35) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 10:59:11) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 48ms (View: 44, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 10:59:21) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 10:59:22) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 32, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 11:06:14) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+
+ActionView::TemplateError (uninitialized constant ActionView::Base::CompiledTemplates::Payments) on line #2 of app/views/home/payments.html.haml:
+1: - content_for :title do 
+2:   - Payments 
+3: 
+4: #internal-title	
+5:   %form{ :action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+
+    app/views/home/payments.html.haml:2
+    haml (2.0.9) lib/haml/helpers.rb:261:in `call'
+    haml (2.0.9) lib/haml/helpers.rb:261:in `capture_haml'
+    haml (2.0.9) lib/haml/helpers.rb:430:in `with_haml_buffer'
+    haml (2.0.9) lib/haml/helpers.rb:258:in `capture_haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:90:in `capture'
+    app/views/home/payments.html.haml:1:in `_run_haml_app47views47home47payments46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (126.7ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 11:06:24) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 39, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 11:06:36) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 117ms (View: 113, DB: 2) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 11:06:41) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 11:08:11) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 38, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:40:12) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (A tab character was used for indentation. Haml must be indented using two spaces.
+Are you sure you have soft tabs enabled in your editor?) on line #28 of app/views/home/contact.html.haml:
+25: <% form_tag do |f| %>
+26: %blockquote
+27:   %fieldset
+28: 	  Hey! My 
+29:     %label{:for => "user_nickname"}
+30:       name
+31:     is 
+
+    app/views/home/contact.html.haml:28
+    haml (2.0.9) lib/haml/precompiler.rb:766:in `count_soft_tabs'
+    haml (2.0.9) lib/haml/precompiler.rb:124:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:40:58) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #24 of app/views/home/contact.html.haml:
+21: %p  For business inquiries, please contact us directly or just fill out our simple contact form
+22: %br 
+23: %br 
+24: = form_for 
+25: <% form_tag do |f| %>
+26: %blockquote
+27:   %fieldset
+
+    app/views/home/contact.html.haml:24:in `form_for'
+    app/views/home/contact.html.haml:24:in `_run_haml_app47views47home47contact46html46haml'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (166.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:41:49) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 48ms (View: 43, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:49:41) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (A tab character was used for indentation. Haml must be indented using two spaces.
+Are you sure you have soft tabs enabled in your editor?) on line #27 of app/views/home/contact.html.haml:
+24: 
+25: <% form_tag do |f| %>
+26: <blockquote>
+27: 			<fieldset>
+28: 			Hey! My <label for="user_nickname">name</label> is <input type="text" name="user[nickname]" id="user_nickname" value="" />
+29:             and I was hoping to <label for="text">talk</label> to you guys in order to <input type="text" name="text" id="text" class="description-field" value="" />.<br />
+30:             </fieldset>
+
+    app/views/home/contact.html.haml:27
+    haml (2.0.9) lib/haml/precompiler.rb:766:in `count_soft_tabs'
+    haml (2.0.9) lib/haml/precompiler.rb:124:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (122.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:49:57) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 56ms (View: 51, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:55:44) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 39, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 14:55:49) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 44ms (View: 40, DB: 2) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:55:52) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 14:55:54) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 102ms (View: 98, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 14:56:25) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 58ms (View: 53, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 14:56:29) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 122ms (View: 117, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 14:56:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 52ms (View: 47, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 14:56:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 14:56:35) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 117ms (View: 113, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 14:56:37) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 14:56:42) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 30, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 14:56:44) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 110ms (View: 106, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 14:56:47) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 14:56:52) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_acolleague (for 127.0.0.1 at 2010-08-05 14:57:51) [GET]
+  Parameters: {"action"=>"work_acolleague", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_acolleague
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 119ms (View: 115, DB: 1) | 200 OK [http://localhost/home/work_acolleague]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_acolleague (for 127.0.0.1 at 2010-08-05 14:58:45) [GET]
+  Parameters: {"action"=>"work_acolleague", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_acolleague
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 45ms (View: 40, DB: 2) | 200 OK [http://localhost/home/work_acolleague]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 14:58:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 121ms (View: 117, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 14:58:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 14:58:55) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 33, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 14:59:23) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 14:59:31) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 34, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 14:59:34) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 14:59:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 48ms (View: 44, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 14:59:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 14:59:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 14:59:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 15:00:15) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 119ms (View: 115, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 15:09:32) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 51ms (View: 47, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 15:09:35) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 30, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 15:09:54) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 57ms (View: 52, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 15:09:56) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 30, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 15:10:15) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 117ms (View: 113, DB: 2) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 15:10:18) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 38, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 15:15:38) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 117ms (View: 113, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 15:15:45) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 33, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 15:16:13) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 38, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 15:16:26) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 35, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-05 15:16:28) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 15:16:30) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-05 15:16:35) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 51ms (View: 45, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 15:16:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 63ms (View: 60, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 15:16:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 15:16:41) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 114ms (View: 110, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_deep_south_fibers (for 127.0.0.1 at 2010-08-05 15:24:13) [GET]
+  Parameters: {"action"=>"work_deep_south_fibers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_deep_south_fibers
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 42ms (View: 37, DB: 1) | 200 OK [http://localhost/home/work_deep_south_fibers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_in_the_making (for 127.0.0.1 at 2010-08-05 15:26:54) [GET]
+  Parameters: {"action"=>"work_in_the_making", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_in_the_making
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/home/work_in_the_making]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 15:35:49) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 113ms (View: 109, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_maralyn_wilson (for 127.0.0.1 at 2010-08-05 15:35:56) [GET]
+  Parameters: {"action"=>"work_maralyn_wilson", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_maralyn_wilson
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 36, DB: 1) | 200 OK [http://localhost/home/work_maralyn_wilson]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-05 15:36:42) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 34, DB: 1) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_political_inquirer (for 127.0.0.1 at 2010-08-05 15:36:46) [GET]
+  Parameters: {"action"=>"work_political_inquirer", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_political_inquirer
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 118ms (View: 41, DB: 1) | 200 OK [http://localhost/home/work_political_inquirer]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_sportgraphics (for 127.0.0.1 at 2010-08-05 16:05:16) [GET]
+  Parameters: {"action"=>"work_sportgraphics", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_sportgraphics
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/home/work_sportgraphics]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work_sportgraphics (for 127.0.0.1 at 2010-08-05 16:05:50) [GET]
+  Parameters: {"action"=>"work_sportgraphics", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work_sportgraphics
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/home/work_sportgraphics]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 16:06:15) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 33, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:06:17) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#payments (for 127.0.0.1 at 2010-08-05 16:06:19) [GET]
+  Parameters: {"action"=>"payments", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/payments
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 104ms (View: 100, DB: 1) | 200 OK [http://localhost/home/payments]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:17:47) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 32, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-05 16:20:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-05 16:20:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:34:34) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 150ms (View: 145, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:35:14) [POST]
+  Parameters: {"commit"=>"Send", "action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:35:14 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 93ms (View: 44, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:36:02) [POST]
+  Parameters: {"commit"=>"Send", "action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:36:02 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 142ms (View: 128, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:36:07) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:36:07 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 48ms (View: 33, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:37:04) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:37:04 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 54ms (View: 40, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:37:18) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:37:18 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 62ms (View: 46, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:37:46) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:37:46 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 44ms (View: 30, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:39:08) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:39:08 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 60ms (View: 44, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:39:20) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:39:20 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 56ms (View: 40, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:39:46) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:39:46 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 63ms (View: 47, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:41:09) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:41:09 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 54ms (View: 39, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:43:54) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:43:54 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 76ms (View: 56, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:45:19) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:45:19 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 60ms (View: 44, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:45:32) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:45:32 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 57ms (View: 39, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:46:32) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:46:32 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 54ms (View: 39, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:47:54) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:47:54 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 67ms (View: 49, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:48:22) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:48:22 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (4 spaces were used for indentation. Haml must be indented using two spaces.) on line #27 of app/views/home/contact.html.haml:
+24: %p  For business inquiries, please contact us directly or just fill out our simple contact form
+25: %br 
+26: %br 
+27:     - form_tag :action => 'contact' do |f|
+28:       %blockquote
+29:         %fieldset
+30:           Hey! My name is
+
+    app/views/home/contact.html.haml:27
+    haml (2.0.9) lib/haml/precompiler.rb:161:in `precompile'
+    /usr/lib/ruby/1.8/net/smtp.rb:551:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (131.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:48:50) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:48:50 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %p and nested within it.) on line #25 of app/views/home/contact.html.haml:
+22:   %h2{:class => "typeface-js"}
+23:     Contact Us
+24:   %p  For business inquiries, please contact us directly or just fill out our simple contact form
+25:     %br 
+26:     %br 
+27:     - form_tag :action => 'contact' do |f|
+28:       %blockquote
+
+    app/views/home/contact.html.haml:25
+    haml (2.0.9) lib/haml/precompiler.rb:585:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:192:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    /usr/lib/ruby/1.8/net/smtp.rb:551:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:49:09) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:49:09 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %p and nested within it.) on line #25 of app/views/home/contact.html.haml:
+22:   %h2{:class => "typeface-js"}
+23:     Contact Us
+24:   %p  For business inquiries, please contact us directly or just fill out our simple contact form
+25:     - form_tag :action => 'contact' do |f|
+26:       %blockquote
+27:         %fieldset
+28:           Hey! My name is
+
+    app/views/home/contact.html.haml:25
+    haml (2.0.9) lib/haml/precompiler.rb:585:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:192:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    /usr/lib/ruby/1.8/net/smtp.rb:551:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (144.8ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:49:21) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:49:21 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 68ms (View: 48, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:49:51) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:49:51 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 138ms (View: 122, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:50:24) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:50:24 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 59ms (View: 42, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:50:50) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:50:50 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #25 of app/views/home/contact.html.haml:
+22: %br 
+23: %br 
+24: <% form_tag do |f| %>
+25:       <blockquote>
+26: 			<fieldset>
+27: 			Hey! My <label for="user_nickname">name</label> is <input type="text" name="user[nickname]" id="user_nickname" value="" />
+28:             and I was hoping to <label for="text">talk</label> to you guys in order to <input type="text" name="text" id="text" class="description-field" value="" />.<br />
+
+    app/views/home/contact.html.haml:25
+    haml (2.0.9) lib/haml/precompiler.rb:314:in `push_plain'
+    haml (2.0.9) lib/haml/precompiler.rb:228:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    /usr/lib/ruby/1.8/net/smtp.rb:551:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:51:15) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:51:15 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 62ms (View: 46, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:51:26) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:51:26 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 150ms (View: 50, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 16:53:47) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 16:53:47 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 56ms (View: 41, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-05 17:09:47) [POST]
+  Parameters: {"action"=>"contact", "authenticity_token"=>"+WLetkEat8cC/KfCztFvHxjt80v+EIbVgaJrKo2FiL4=", "text"=>"", "controller"=>"home", "user"=>{"nickname"=>"", "email"=>""}}
+Sent mail to info@isotope11.com
+
+Date: Thu, 5 Aug 2010 17:09:47 -0500
+From: info@isotope11.com
+To: info@isotope11.com
+Subject: [Customer Contact Email] Customer contact request.
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+
+ |  |  | 
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 150ms (View: 56, DB: 2) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 09:29:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 74ms (View: 67, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 09:29:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 09:33:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (Illegal nesting: nesting within plain text is illegal.) on line #2 of app/views/home/index.html.haml:
+1: <div id="project-top">&nbsp;</div>
+2:   <div id="content-wrap">
+3:     <div id="content-home">
+4:       <div id="project-slider">
+5:         <div id="header-slide">
+
+    app/views/home/index.html.haml:2
+    haml (2.0.9) lib/haml/precompiler.rb:314:in `push_plain'
+    haml (2.0.9) lib/haml/precompiler.rb:228:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/home_controller.rb:5:in `index'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (48.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 09:36:55) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (1 space was used for indentation. Haml must be indented using two spaces.) on line #14 of app/views/home/index.html.haml:
+11: <a href="/home/work_aiua"><img id="slide-img-3" src="images/fader-3.jpg" class="slide" alt="" /></a>
+12: <a href="/home/work_sportgraphics"><img id="slide-img-4" src="images/fader-4.jpg" class="slide" alt="" /></a>
+13: <div id="slide-controls">
+14:  <p id="slide-client" class="text"><strong>Client:&nbsp;</strong><span></span></p>
+15:  <p id="slide-desc" class="text"></p>
+16:  <p id="slide-nav"></p>
+17: </div>
+
+    app/views/home/index.html.haml:14
+    haml (2.0.9) lib/haml/precompiler.rb:150:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/home_controller.rb:5:in `index'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (138.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:00:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 44ms (View: 40, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:00:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:02:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (Indenting at the beginning of the document is illegal.) on line #1 of app/views/home/index.html.haml:
+1:   #project-top
+2:   &nbsp;
+3:   #content-wrap
+4:     #content-home
+
+    app/views/home/index.html.haml:1
+    haml (2.0.9) lib/haml/engine.rb:89:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    app/controllers/home_controller.rb:5:in `index'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (121.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:02:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 39, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:02:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:20:42) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 141ms (View: 137, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:20:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:24:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 48ms (View: 44, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:24:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 10:27:21) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 56ms (View: 51, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:27:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:27:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:28:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 64ms (View: 58, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:28:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:49:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:49:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 10:49:53) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 10:49:54) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:01:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:01:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:05:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:05:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:05:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 30, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:05:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:07:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 36, DB: 2) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:07:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:10:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 102ms (View: 98, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:10:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:10:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:10:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:12:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 34, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:12:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:12:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 41ms (View: 36, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:12:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:12:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:12:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:13:19) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:13:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:14:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/home]
+>>>>>>> 6de4435b633ceec074b72d3698d57a318b48fa93:log/development.log
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+<<<<<<< HEAD:log/development.log
 Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 12:38:01) [GET]
 
 ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
@@ -33027,3 +36766,471 @@ ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+=======
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:14:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:14:30) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 105ms (View: 101, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:14:46) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:14:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 28, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:14:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:14:58) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 49ms (View: 43, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-06 11:15:00) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-06 11:15:30) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 47ms (View: 41, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:17:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:17:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:17:30) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 35, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:17:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 30, DB: 1) | 200 OK [http://localhost/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:17:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:04) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 11:18:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 11:18:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 111ms (View: 106, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 38, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 32, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 31, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 119ms (View: 115, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 31, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:17) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:18:18) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 109ms (View: 104, DB: 2) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:19:12) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 57ms (View: 51, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 11:21:18) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;36;1mUser Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 34, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-06 11:21:33) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 37ms (View: 33, DB: 2) | 200 OK [http://localhost/home/services]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-06 11:21:37) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 30, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 127.0.0.1 at 2010-08-06 11:21:52) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 106ms (View: 102, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 12:00:28) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 43ms (View: 36, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 12:00:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 12:00:39) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 32ms (View: 28, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 12:02:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 39ms (View: 35, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 12:02:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 12:03:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 38ms (View: 34, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 12:03:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 12:04:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 40ms (View: 36, DB: 2) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 12:04:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 12:04:10) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-08-06 12:04:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 103ms (View: 99, DB: 1) | 200 OK [http://localhost/home]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-08-06 12:04:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/header-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 12:25:02) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-06 12:25:13) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 35ms (View: 31, DB: 1) | 200 OK [http://localhost/home/services]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-08-06 12:25:16) [GET]
+  Parameters: {"action"=>"about", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/about
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 123ms (View: 119, DB: 1) | 200 OK [http://localhost/home/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#work (for 127.0.0.1 at 2010-08-06 12:25:20) [GET]
+  Parameters: {"action"=>"work", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/work
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Completed in 36ms (View: 30, DB: 2) | 200 OK [http://localhost/home/work]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#services (for 127.0.0.1 at 2010-08-06 12:25:23) [GET]
+  Parameters: {"action"=>"services", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/services
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Completed in 34ms (View: 29, DB: 1) | 200 OK [http://localhost/home/services]
+

@@ -1,6 +1,5 @@
 html {background-color:#d3d3d3;}
 
-
 body {height:auto; width:auto; font: 62.5% Verdana, Arial, Helvetica, sans-serif; background:url(../images/body-bg.jpg) repeat-x; background-color:#ececec; margin: 0 auto;}
 
 a {border:none; outline:none;}
@@ -14,18 +13,18 @@ body.internal {background:url(../images/body-bg-internal.png) repeat-x;  backgro
 #header-internal {background:url(../images/header-bg.jpg) repeat-y; background-color:#15334d; height:125px; width:auto; margin: 0 auto; }
 
 #internal-title {width:962px; margin:14px auto; font-family:'greyscalebasic', arial, sans serif;}
-#internal-title h2 {font-size:3.9em; color:#333333;s font-weight:lighter; margin: 0; padding: 0; font-family: 'greyscalebasic', arial, serif; }
+#internal-title h2 {font-size:3.9em; color:#333333; margin: 0; padding: 0; font-family: 'greyscalebasic', arial, serif; }
 #internal-title h2.typeface-js {font-family:'greyscalebasic', arial, sans serif;}
 
 
-h2 {font-size:3.9em; color:#333333;s font-weight:lighter; padding: 0; font-family: 'greyscalebasic', arial, serif; margin: 20px 0 10px 0 ;}
+h2 {font-size:3.9em; color:#333333;s font-weight:lighter; padding: 0; font-family: 'greyscalebasic', arial, serif; margin: 20px 0 7px 0 ;}
 
 h2.typeface-js {font-family: "greyscalebasic", arial, serif;}
 .typeface-js {font-family: "greyscalebasic", arial, serif;}
 
 #title {width:962px; height:350px; margin: 0 auto;}
 #title h2 {color:#cfe0e7; font-size:5em; margin: 0; font-weight:normal; padding: 8px 0 0 20px; font-family: 'greyscalebasic', arial, serif;}
-#title h3 {float:left; font-size:1.7em; color:#c3c1c1; padding: 0 0 0 23px; line-height:1.8em; width:600px;}
+#title h3 {float:left; font-size:1.64em; color:#c3c1c1; padding: 0 0 0 23px; margin:0; line-height:1.8em; width:600px;}
 
 
 
@@ -35,11 +34,12 @@ h2.typeface-js {font-family: "greyscalebasic", arial, serif;}
 
 #top-bar {width:960px; height:150px; margin: 0 auto;}
 
-h1 a {background:url(../images/logo.png) no-repeat; width:262px; height:126px; display:block; text-indent:-9999em; margin: 0; padding: 0; float:left;}
+h1 a {background:url(../images/logo.png) 0 0 no-repeat; width:262px; height:126px; display:block; text-indent:-9999em; margin: 0; padding: 0; float:left;}
+h1 a:hover {background:url(../images/logo.png) 0 -126px no-repeat; width:262px; height:126px; display:block; text-indent:-9999em; margin:0; padding:0; float:left; }
 
 /*----------------------------------------------------------------------------navigation-----------------------------*/
 
-#navigation {padding: 28px 5px 0 0; float:right;}
+#navigation {padding: 30px 5px 0 0; float:right;}
 
 ul.nav li {display:inline; float:left; padding: 0 0 0 15px;}
 
@@ -81,12 +81,13 @@ li.payments a.active {background:url(../images/payments.png) 0 0;}
 #content a {color:#3d606f;}
 #content a:hover {color:#000066}
 
-#content p {font-size:1.3em; margin: 0 0 11px 0; line-height:1.6em;}
-#content h3 {font-size:2.7em; margin: 10px 0 15px 0; font-weight:lighter; font-family: 'greyscalebasic', arial, serif;}
+#content p {font-size:1.3em; margin: 0 0 13px 0; line-height:1.6em;}
+#content h3 {font-size:2.7em; margin: 3px 0 7px 0; font-weight:lighter; font-family: 'greyscalebasic', arial, serif;}
 #content h3.typeface-js {font-family: 'greyscalebasic', arial, serif;}
 
 #content h4 {font-size:1.6em; margin: 5px 0 10px 0; color:#003366; }
 #content h4.casestudy {font-size:1.9em;}
+
 
 #project-top {background:url(../images/project-top.png) no-repeat; height:12px; width:962; background-position:center;}
 #project-slider {background:url(../images/project-bg.png) no-repeat; height:321px; width:962px; margin: 0 auto;}
@@ -112,10 +113,11 @@ li.payments a.active {background:url(../images/payments.png) 0 0;}
 
 
 .profile-pic {width:165x; height:200px; display:block; float:left; margin: 10px 10px 0 0;}
-.profile {float:right; height:200px; width:780px; margin: 10px 0 0 0; padding:15px 0 0 0;}
+.profile {float:right; height:200px; width:780px; margin: 10px 0 20px 0; padding:0;}
 .profile p {margin:0; padding:0;}
 .profile h5 {margin:0; padding: 0 0 7px 0; margin: 0 0 3px 0; font-size:1.4em; color:#333333;  border-bottom:1px solid #cccccc; width:730px;}
-.profile h3 {font-size:1.8em; color:#666666; font-weight:lighter; margin: 0;}
+.profile h3 {font-size:1.8em; color:#666666; font-weight:lighter; margin: 0; padding: 0;}
+
 
 .pay-now {float:right; display:block}
 .img-right {float:right; padding: 15px 0 0 10px;}
@@ -204,51 +206,6 @@ hr {color:#999999;}
 	margin: 0 0 0 15px;
 	float: none;
 	}
-
-/*------------------------------------------ info grid ------------------------------------------------*/
-
-/*
-	 CSS-Tricks Example
-	 by Chris Coyier
-	 http://css-tricks.com
-*/
-
-
-#page-wrap { width: 962px; margin: 0 auto; height:auto; float:left; overflow:hidden; display:inherit; padding:20px 0 0 0; }
-
-.info-col { float: left; width: 160px; height: 100%; background:#ffffff; border:1px solid #eeeeee; }
-.info-col img {margin: 5px 0 0 56px;}
-
-.info-col h2 { text-align: center; font-weight: normal; padding: 25px 0; font-size:1.5em; }
-
-.image { height: 40px; display: block; font-size:1.5em; text-align:center; padding: 12px 0 0 0 ; text-decoration:none;}
-.image a {text-decoration:none;}
-
-
-dl { }
-dt { padding: 5px; background: #900; color: #ffffff; border-bottom: 1px solid white; border-right: 1px solid #eeeeee; }
-dd { position: absolute; left: -9999px; top: -9999px; width: 469px; background: #900; padding: 10px; color: #000000; border-right: 1px solid #eeeeee; }
-
-dt:nth-of-type(1) { background: #146283;  }
-dd:nth-of-type(1) { background: #cccccc; }
-
-dt:nth-of-type(2) { background: #3f8faa; }
-dd:nth-of-type(2) { background: #cccccc; }
-
-dt:nth-of-type(3) { background: #146283; }
-dd:nth-of-type(3) { background: #cccccc; }
-
-dt:nth-of-type(4) { background: #3f8faa; }
-dd:nth-of-type(4) { background: #cccccc; }
-
-dt:nth-of-type(5) { background: #146283; }
-dd:nth-of-type(5) { background: #cccccc; }
-
-dt:nth-of-type(6) { background: #294867; }
-dd:nth-of-type(6) { background: #294867; }
-
-.curCol { -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); z-index: 1; position: relative; }
-
 
 /*-----------------------------------------------mad lib form--------------------------------------------------------------*/
 

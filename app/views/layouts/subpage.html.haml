@@ -1,0 +1,103 @@
+!!! Strict
+%html 
+  %head
+    %title
+      = yield :title
+    %meta{"content" => "2009-12-02T14:31:41-0600", "name" => "date"} 
+    %meta{"name" => "keywords", "content" => "Isotope, Isotope11, Isotope Eleven, internet, Laird Foret, software, custom software, Birmingham, custom software birmingham, alabama, custom development birmingham, consulting, Ruby development, Ruby on Rails development, rails development, linux, technology firm"} 
+    %meta{"name" => "description", "content" => "Isotope11 specializes in custom software development on Linux based platforms using Ruby on Rails (RoR). Our expert skill sets also include e-commerce and financial applications, social networking applications, database architectures, graphic design, user interfaces and much more."}
+    %meta{"content" => "text/html;charset=UTF-8", "http-equiv" => "content-type"}
+    %meta{"content" => "text/html; charset=UTF-8", "http-equiv" => "content-type"} 
+    = stylesheet_link_tag 'reset-min', 'screen' 
+    = javascript_include_tag 'typeface-0.14'
+    = javascript_include_tag 'greyscalebasic_regular.typeface.js'
+    %link{:rel => 'shortcut icon", :href => "/favicon.ico?1234'} 
+    = javascript_include_tag  'jquery.js'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'
+    %script{:type => "text/javascript", :charset => "utf-8"}
+      var _siteRoot='index.html',_root='index.html';
+  
+  %body.internal
+    #main-wrap
+      #header-internal
+        #title-bar-internal
+          #top-bar
+            %h1
+              %a{ :href => "/"}
+                Isotope11
+            #user_nav
+              - if current_user 
+                = link_to "My Account", user_path(current_user) 
+                = link_to "Logout", logout_path  
+                - if current_user.has_role?(:admin, @user)
+                  = link_to "New User", new_user_path 
+              - else 
+                = link_to "Login", new_user_session_path
+            #navigation
+              %ul.nav
+                %li.home
+                  %a{ :href => "/home"}
+                    Home
+                %li.about
+                  %a{ :href => "/home/about"}
+                    About Us
+                %li.work
+                  %a{ :href=> "/home/work"}
+                    Work
+                %li.services
+                  %a{ :href => "/home/services"}
+                    Services
+                %li.contact
+                  %a{ :href => "/home/contact"}
+                    Contact
+                %li.payments
+                  %a{ :href => "/home/payments"}
+                    Payments
+      #content-wrap
+        #content
+          = yield 
+          %br{:style => "clear:both;"} 
+        
+    #footer
+      #footer-content-wrap
+        %ul.footer-content
+          %li
+            Isotope 11
+          %li
+            &ndash;
+          %li
+            529 Beacon Pkwy W
+          %li
+            &ndash;
+          %li
+            Suite 105
+          %li
+            &ndash;
+          %li
+            Birmingham, AL 35209
+          %li
+            &ndash;
+          %li
+            p: 877.476.8671
+          %li
+            &ndash;
+          %li
+            f: 205.943.5760
+          %li
+            &ndash;
+          %li
+            e:
+            %a{ :href => "mailto:info@isotope11.com"}
+              info@isotope11.com
+          %li
+            &ndash;
+          %li
+            %a{:href => "/home/payments"}
+              Make a payment
+              
+    %script{:type => "text/javascript", :charset => "utf-8"} 
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    %script{:type => "text/javascript", :charset => "utf-8"}
+      try { var pageTracker = _gat._getTracker("UA-3168015-2");
+      pageTracker._trackPageview(); } catch(err) {}
