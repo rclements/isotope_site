@@ -1,0 +1,45 @@
+- content_for :title do 
+  Contact &ndash; Isotope11 
+
+#internal-title
+.content-left
+  %img{:src => "/images/contact-img.png", :alt => "contact image"} 
+  %p{:class => "contact-title"}
+    Isotope11
+  %p
+    529 Beacon Pkwy W - Suite 105
+    %br 
+    Birmingham, AL 35209
+    %br
+    p: 877.476.8671
+    %br 
+    f: 205.943.5760
+    %br 
+    e:
+    %a{:href => "mailto:info@isotope11.com"}
+      info@isotope11.com
+        	
+%h2{:class => "typeface-js"}
+  Contact Us
+%p  For business inquiries, please contact us directly or just fill out our simple contact form
+%br 
+%br 
+- form_tag :action => 'contact' do |f|
+  %blockquote
+    %fieldset
+      Hey! My name is
+      %input{:type => 'text', :name => 'user[nickname]', :id => "user_nickname"}
+      and I was hoping to talk to you guys in order to
+      %input{:type => 'text', :name => 'text', :class => "description-field", :id => "text"}
+      %br
+      %br
+        By the way, my contact email address is
+      %input{:type => 'text', :name => 'user[email]', :id => "user_email"}
+      and I work with
+      %input{:type => 'text', :id => 'company', :value => ''}
+      %br
+      %br
+      %button{:type => "submit"}
+        Submit
+
+      =submit_tag 'Send'
