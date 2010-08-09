@@ -1,0 +1,69 @@
++tab_tab+ is an MVC-violating (there, you've been warned) plugin that allows
+for easy tabbed navigation, without forcing your controllers to be named in
+any given way.
+
+It makes for very clean views with zero tab navigation logic. On your
+controllers:
+
+  class ElephantsController < ApplicationController
+
+    tab :elephants
+  end
+
+On your views:
+
+  <ul>
+    <%= tab('/e', :elephants) -%>  # This will be <li class="active">...
+    <%= tab('/h', :hippos)    -%>
+  </ul>
+
+That's the simplest case. You can also nest:
+
+  class ElephantsController < ApplicationController
+
+    tab :animals => :elephants  # or tab 'animals', 'elephants'
+  end
+
+And on the view (notice the two levels of "active"):
+
+  <ul id="first-level-tabs">
+    <%= tab('/a', :animals) -%>  # <li class="active">...
+    <%= tab('/p', :plants)  -%>
+  </ul>
+
+  <ul id="second-level-tabs">
+    <%= tab('/a/e', :animals => :elephants) -%>  # <li class="active">...
+    <%= tab('/a/h', :animals => :hippos)    -%>
+  </ul>
+
+You can also nest in the view using the +tabs_for+ helper. The example
+above would become:
+
+  <ul id="second-level-tabs">
+    <% tabs_for :animals do |animal| %>
+      <%= animal.tab('/a/e', :elephants) -%>  # <li class="active">...
+      <%= animal.tab('/a/h', :hippos)    -%>
+    <% end %>
+  </ul>
+
+And you can also call the +tab+ method at "runtime" on your controllers
+(which means you can use it on before_filters, and/or with custom if/unless
+branch logic based on request parameters), like so:
+
+  class ElephantsController < ApplicationController
+
+    tab :animals => :elephants
+
+    def edit
+      tab :animals => { :elephants => :edit }
+    end
+  end
+
+The +tab+ helper in the view is hardcoded to produce an HTML list element
+with a link inside. Overriding it is easy, since it actually delegates all of
+the who's-the-current-tab logic to helper methods (See TabTab::ViewHelpers).
+
+CSS is on you. Patches welcome.
+
+Copyright (c) 2009 Jordi Bunster <jordi@bunster.org>,
+released under the MIT license

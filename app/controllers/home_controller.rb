@@ -2,16 +2,19 @@ class HomeController < ApplicationController
   layout 'subpage'
 
   def index
+    tab :home
     render :layout => 'application'
   end
 
   def about
+    tab :about
   end
 
   def clients
   end
 
   def contact
+    tab :contact
     if request.post?
       UserMailer.deliver_contact_email(params[:user]["nickname"], params[:text], params[:user]["email"], params[:company])
       flash.now[:notice] = "Email sent successfully."
@@ -19,15 +22,18 @@ class HomeController < ApplicationController
   end
 
   def payments
+    tab :payments
   end
 
   def services
+    tab :services
   end
 
   def sub
   end
 
   def work
+    tab :work
   end
 
   def work_acolleague
