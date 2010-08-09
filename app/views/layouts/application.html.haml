@@ -38,26 +38,7 @@
                   = link_to "New User", new_user_path 
               - else 
                 = link_to "Login", new_user_session_path
-            #navigation
-              %ul.nav
-                %li.home
-                  %a{ :href => ""}
-                    Home
-                %li.about
-                  %a{ :href => "/home/about"}
-                    About Us
-                %li.work
-                  %a{ :href=> "/home/work"}
-                    Work
-                %li.services
-                  %a{ :href => "/home/services"}
-                    Services
-                %li.contact
-                  %a{ :href => "/home/contact"}
-                    Contact
-                %li.payments
-                  %a{ :href => "/home/payments"}
-                    Payments
+            = render :partial => "shared/site_menu"
           #title
             %h2.typeface-js
               Web Development Done Right!

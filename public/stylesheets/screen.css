@@ -39,36 +39,101 @@ h1 a:hover {background:url(../images/logo.png) 0 -126px no-repeat; width:262px; 
 
 /*----------------------------------------------------------------------------navigation-----------------------------*/
 
-#navigation {padding: 30px 5px 0 0; float:right;}
+#navigation {
+  padding: 30px 0px 0 0px; 
+  float:right;
+  display:block;
+}
 
-ul.nav li {display:inline; float:left; padding: 0 0 0 15px;}
+ul.nav li {
+  display:inline; 
+  float:left; 
+  padding: 0 0 0 0;
+}
 
-li.home a {display:block; width:74px; height:45px; overflow:hidden; background:url(../images/home.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.home a:hover {background:url(../images/home.png) 0 0;}
+ul.nav li a {
+  padding: 0 0 0 0;
+  display:block; 
+  height:45px; 
+  border:none; 
+  overflow:hidden; 
+  outline:none;
+  text-indent:-9999em; 
+}
 
-li.about a {display:block; width:74px; height:45px; overflow:hidden; background:url(../images/about.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.about a:hover {background:url(../images/about.png) 0 0;}
-li.about a.active {background:url(../images/about.png) 0 0;}
+#home_tab {
+  width:74px; 
+  background:url(../images/home.png) no-repeat 0 -45px; 
+}
+#home_tab a:hover {
+  background:url(../images/home.png) no-repeat 0 0;
+}
 
-li.work a {display:block; width:69px; height:45px; overflow:hidden; background:url(../images/work.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.work a:hover {background:url(../images/work.png) 0 0;}
-li.work a.active {background:url(../images/work.png) 0 0;}
+#about_tab a {
+  width:74px; 
+  background:url(../images/about.png) no-repeat 0 -45px; 
+}
+#about_tab a:hover {
+  background:url(../images/about.png) no-repeat 0 0;
+}
+#about_tab.active a {
+  background:url(../images/about.png) no-repeat 0 0;
+}
 
-li.services a {display:block; width:88px; height:45px; overflow:hidden; background:url(../images/services.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.services a:hover {background:url(../images/services.png) 0 0;}
-li.services a.active {background:url(../images/services.png) 0 0;}
+#work_tab a {
+  width:69px;
+  background:url(../images/work.png) no-repeat 0 -45px;
+}
+#work_tab a:hover {
+  background:url(../images/work.png) no-repeat 0 0;
+}
+#work_tab.active {
+  background:url(../images/work.png) no-repeat 0 0;
+}
 
-li.clients a {display:block; width:77px; height:45px; overflow:hidden; background:url(../images/clients.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.clients a:hover {background:url(../images/clients.png) 0 0;}
-li.clients a.active {background:url(../images/clients.png) 0 0;}
+#services_tab a {
+  width:88px;
+  background:url(../images/services.png) no-repeat 0 -45px;
+}
+#services_tab a:hover {
+  background:url(../images/services.png) no-repeat 0 0;
+}
+#services_tab.active {
+  background:url(../images/services.png) no-repeat 0 0;
+}
 
-li.contact a {display:block; width:84px; height:45px; overflow:hidden; background:url(../images/contact.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.contact a:hover {background:url(../images/contact.png) 0 0;}
-li.contact a.active {background:url(../images/contact.png) 0 0;}
+#clients_tab a {
+  width:77px;
+  background:url(../images/clients.png) no-repeat 0 -45px;
+}
+#clients_tab a:hover {
+  background:url(../images/clients.png) no-repeat 0 0;
+}
+#clients_tab.active {
+  background:url(../images/clients.png) no-repeat 0 0;
+}
 
-li.payments a {display:block; width:97px; height:45px; overflow:hidden; background:url(../images/payments.png) 0 -45px; text-indent:-9999em; border:none; outline:none;}
-li.payments a:hover {background:url(../images/payments.png) 0 0;}
-li.payments a.active {background:url(../images/payments.png) 0 0;}
+#contact_tab a {
+  width:84px;
+  background:url(../images/contact.png) no-repeat 0 -45px;
+}
+#contact_tab a:hover {
+  background:url(../images/contact.png) no-repeat 0 0;
+}
+#contact_tab.active {
+  background:url(../images/contact.png) no-repeat 0 0;
+}
+
+#payments_tab a {
+  width:97px;
+  background:url(../images/payments.png) no-repeat 0 -45px;
+}
+#payments_tab a:hover {
+  background:url(../images/payments.png) no-repeat 0 0;
+}
+#payments_tab.active {
+  background:url(../images/payments.png) no-repeat 0 0;
+}
 
 
 /*--------------------------------------------------------------------------------content----------------------------------------*/
@@ -391,7 +456,8 @@ background : url(images/nav.png) no-repeat;
 #user_nav a {
 padding: 0 6px 0 0;
 margin: 0;
-float: right;
+display:block;
+position:absolute 0 0;
 font-size: 12px;
 color: #FFFFFF;
 }
