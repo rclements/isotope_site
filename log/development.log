@@ -45458,3 +45458,289 @@ Rendering home/contact
   [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
 Rendered shared/_site_menu (4.4ms)
 Completed in 53ms (View: 36, DB: 1) | 200 OK [http://localhost/home/contact]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#contact (for 192.168.1.137 at 2010-08-16 11:14:01) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/contact
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (7.0ms)
+Completed in 161ms (View: 157, DB: 2) | 200 OK [http://192.168.1.139/home/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 192.168.1.137 at 2010-08-16 11:14:04) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.8ms)
+Completed in 43ms (View: 39, DB: 1) | 200 OK [http://192.168.1.139/home/careers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:18:48) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+
+ActionView::TemplateError (3 spaces were used for indentation. Haml must be indented using two spaces.) on line #9 of app/views/home/careers.html.haml:
+6:     Careers
+7: 
+8: %p
+9:    What are we looking for 
+10: 
+11: %ul
+12:   %li * Rails / Ruby 
+
+    app/views/home/careers.html.haml:9
+    haml (2.0.9) lib/haml/precompiler.rb:150:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (151.9ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:19:00) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+
+ActionView::TemplateError (Illegal nesting: content can't be both given on the same line as %p and nested within it.) on line #31 of app/views/home/careers.html.haml:
+28: %p We also have very aggressive profit sharing, bonus and commission structures in place.. We all share in our success!! 
+29: 
+30: %p Please email resumes and/or portfolios to 
+31:   %a{:href => "mailto:laird@isotope11.com"}
+32:     laird@isotope11.com 
+
+    app/views/home/careers.html.haml:31
+    haml (2.0.9) lib/haml/precompiler.rb:585:in `render_tag'
+    haml (2.0.9) lib/haml/precompiler.rb:192:in `process_line'
+    haml (2.0.9) lib/haml/precompiler.rb:156:in `precompile'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `each_with_index'
+    haml (2.0.9) lib/haml/precompiler.rb:122:in `precompile'
+    haml (2.0.9) lib/haml/engine.rb:100:in `initialize'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `new'
+    haml (2.0.9) rails/./lib/haml/template/plugin.rb:21:in `compile'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) lib/haml/helpers/action_view_mods.rb:14:in `render'
+    haml (2.0.9) rails/./lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (47.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:19:21) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.4ms)
+Completed in 132ms (View: 128, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:19:43) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.5ms)
+Completed in 46ms (View: 41, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:19:55) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (3.6ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.4ms)
+Completed in 121ms (View: 114, DB: 4) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:21:29) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.8ms)
+Completed in 48ms (View: 44, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:21:40) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.8ms)
+Completed in 124ms (View: 120, DB: 2) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:21:54) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.6ms)
+Completed in 39ms (View: 34, DB: 2) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:22:04) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (6.7ms)
+Completed in 111ms (View: 107, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:22:12) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.8ms)
+Completed in 41ms (View: 36, DB: 2) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:22:25) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (81.0ms)
+Completed in 115ms (View: 110, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:23:38) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.9ms)
+Completed in 49ms (View: 45, DB: 2) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:23:52) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (75.6ms)
+Completed in 115ms (View: 111, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:24:28) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.8ms)
+Completed in 48ms (View: 44, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:24:48) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.8ms)
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:24:56) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.6ms)
+Completed in 49ms (View: 44, DB: 2) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:25:06) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.1ms)
+Completed in 41ms (View: 37, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:25:31) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.3ms)
+Completed in 54ms (View: 48, DB: 1) | 200 OK [http://localhost/home/careers]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:26:01) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;36;1mUser Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (4.5ms)
+Completed in 37ms (View: 33, DB: 2) | 200 OK [http://localhost/home/careers]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HomeController#careers (for 127.0.0.1 at 2010-08-16 11:26:13) [GET]
+  Parameters: {"action"=>"careers", "controller"=>"home"}
+Rendering template within layouts/subpage
+Rendering home/careers
+  [4;35;1mUser Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendered shared/_site_menu (5.1ms)
+Completed in 44ms (View: 39, DB: 1) | 200 OK [http://localhost/home/careers]

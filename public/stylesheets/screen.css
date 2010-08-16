@@ -158,6 +158,7 @@ ul.nav li a {
 #content h4 {font-size:1.6em; margin: 5px 0 10px 0; color:#003366; }
 #content h4.casestudy {font-size:1.9em;}
 
+#content h5 {font-size:2em; margin: 0 0 7px 0;}
 
 #project-top {background:url(../images/project-top.png) no-repeat; height:12px; width:962; background-position:center;}
 #project-slider {background:url(../images/project-bg.png) no-repeat; height:321px; width:962px; margin: 0 auto;}
@@ -191,6 +192,8 @@ ul.nav li a {
 
 .pay-now {float:right; display:block}
 .img-right {float:right; padding: 15px 0 0 10px;}
+
+ul.career {font-size:1.2em; margin: 0 0 10px 0;}
 
 
 /*-------------------------------------------------work page-------------------------------------------------------------------*/
