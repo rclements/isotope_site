@@ -16,7 +16,6 @@ body.internal {background:url(../images/body-bg-internal.png) repeat-x;  backgro
 #internal-title h2 {font-size:3.9em; color:#333333; margin: 0; padding: 0; font-family: 'greyscalebasic', arial, serif; }
 #internal-title h2.typeface-js {font-family:'greyscalebasic', arial, sans serif;}
 
-
 h2 {font-size:3.9em; color:#333333;s font-weight:lighter; padding: 0; font-family: 'greyscalebasic', arial, serif; margin: 20px 0 7px 0 ;}
 
 h2.typeface-js {font-family: "greyscalebasic", arial, serif;}
@@ -40,9 +39,8 @@ h1 a:hover {background:url(../images/logo.png) 0 -126px no-repeat; width:262px; 
 /*----------------------------------------------------------------------------navigation-----------------------------*/
 
 #navigation {
-  padding: 30px 0px 0 0px; 
+  padding: 30px 0 0 0; 
   float:right;
-  display:block;
 }
 
 ul.nav li {
@@ -61,9 +59,10 @@ ul.nav li a {
   text-indent:-9999em; 
 }
 
-#home_tab {
+#home_tab a {
   width:74px; 
-  background:url(../images/home.png) no-repeat 0 -45px; 
+  background:url(../images/home.png) no-repeat 0 -45px;
+  padding: 0 15px 0 0; 
 }
 #home_tab a:hover {
   background:url(../images/home.png) no-repeat 0 0;
@@ -71,7 +70,8 @@ ul.nav li a {
 
 #about_tab a {
   width:74px; 
-  background:url(../images/about.png) no-repeat 0 -45px; 
+  background:url(../images/about.png) no-repeat 0 -45px;
+  padding: 0 15px 0 0; 
 }
 #about_tab a:hover {
   background:url(../images/about.png) no-repeat 0 0;
@@ -83,6 +83,7 @@ ul.nav li a {
 #work_tab a {
   width:69px;
   background:url(../images/work.png) no-repeat 0 -45px;
+  padding: 0 15px 0 0;
 }
 #work_tab a:hover {
   background:url(../images/work.png) no-repeat 0 0;
@@ -94,6 +95,7 @@ ul.nav li a {
 #services_tab a {
   width:88px;
   background:url(../images/services.png) no-repeat 0 -45px;
+  padding: 0 15px 0 0;
 }
 #services_tab a:hover {
   background:url(../images/services.png) no-repeat 0 0;
@@ -105,6 +107,7 @@ ul.nav li a {
 #clients_tab a {
   width:77px;
   background:url(../images/clients.png) no-repeat 0 -45px;
+  padding: 0 15px 0 0;
 }
 #clients_tab a:hover {
   background:url(../images/clients.png) no-repeat 0 0;
@@ -116,6 +119,7 @@ ul.nav li a {
 #contact_tab a {
   width:84px;
   background:url(../images/contact.png) no-repeat 0 -45px;
+  padding: 0 15px 0 0;
 }
 #contact_tab a:hover {
   background:url(../images/contact.png) no-repeat 0 0;
@@ -127,6 +131,7 @@ ul.nav li a {
 #payments_tab a {
   width:97px;
   background:url(../images/payments.png) no-repeat 0 -45px;
+  padding: 0 10px 0 0;
 }
 #payments_tab a:hover {
   background:url(../images/payments.png) no-repeat 0 0;
@@ -142,7 +147,7 @@ ul.nav li a {
 
 #content-home {width:962px; height:auto; margin: 0 auto;}
 
-#content {margin: 0 auto 25px auto; width:962px; height:auto;}
+#content {margin: 0 auto 25px 130px; width:962px; height:auto;}
 #content a {color:#3d606f;}
 #content a:hover {color:#000066}
 
@@ -159,7 +164,7 @@ ul.nav li a {
 
 #content .contact-title {font-size:2em; margin:0;}
 
-.content-left{float:right; margin: 5px 50px 0 0;}
+.content-left{float:right; margin: 5px 30px 0 0;}
 .content-left h3 {padding: 0 0 0 20px;}
 .content-left p {padding: 0 0 0 20px;}
 .content-left img {padding: 0 0 5px 0;}
@@ -187,6 +192,7 @@ ul.nav li a {
 .pay-now {float:right; display:block}
 .img-right {float:right; padding: 15px 0 0 10px;}
 
+
 /*-------------------------------------------------work page-------------------------------------------------------------------*/
 
 
@@ -204,9 +210,15 @@ hr {color:#999999;}
 
 #footer-content-wrap {width:1200px; margin: 0 auto; display:block; height:94px;}
 
-#footer .footer-content {text-align:center; padding: 35px 0 0 0; color:#3d606f; font-size:1.1em;}
 
-#footer .footer-content li {display:inline; padding: 0 5px 0 0;}
+#footer .footer-content2 {padding: 25px 0 20px 0; margin:0 122px 0 0; float:right; color:#3d606f; font-size:1.1em;} 
+#footer .footer-content2 li {display:inline; padding: 0 5px 0 0;}
+#footer .footer-content2 li a {color:#3d606f; text-transform:none;}
+#footer .footer-content2 li a:hover {color:#000066;}
+
+
+#footer .footer-content {float:left; margin: 0 50px 15px 131px; padding: 25px 0 0 0; color:#3d606f; font-size:1.1em;}
+#footer .footer-content li {padding: 0 5px 3px 0;}
 #footer .footer-content li a {color:#3d606f;}
 #footer .footer-content li a:hover {color:#000066;}
 
@@ -456,17 +468,15 @@ background : url(images/nav.png) no-repeat;
 #user_nav a {
 padding: 0 6px 0 0;
 margin: 0;
-display:block;
-position:absolute 0 0;
+float:right;
 font-size: 12px;
 color: #FFFFFF;
 }
 
 #user_nav {
 float: right;
-height: 15px;
-margin: 0 8px 0 0; 
-width: 200px;
+margin: 0 8px 0 0;
+width:600px;
 }
 
 .clear {

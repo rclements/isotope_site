@@ -2,8 +2,8 @@ class HomeController < ApplicationController
   layout 'subpage'
 
   def index
-    tab :home
     render :layout => 'application'
+    tab :home
   end
 
   def about
@@ -68,6 +68,9 @@ class HomeController < ApplicationController
 
   def work_sportgraphics
   end
+
+  def careers
+  end  
 
 end
 

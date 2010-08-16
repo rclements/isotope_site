@@ -2,27 +2,26 @@
   Payments &ndash; Isotope11
 
 #internal-title	
-  %form{ :action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
-    %input{:type => "hidden", :name => "cmd", :value => "_xclick"}  
-    %input{:type => "hidden", :name => "business", :value => "payments@isotope11.com"}
-    %input{:type => "hidden", :name => "item_name", :value => "Isotope Eleven" } 
-    %input{:type => "hidden", :name => "item_number",  :value => "Services"} 
-    %input{:type => "hidden", :name => "no_shipping", :value => "0"}
-    %input{:type => "hidden", :name => "no_note", :value => "1"} 
-    %input{:type => "hidden", :name => "currency_code", :value => "USD"}
-    %input{:type => "hidden", :name => "lc", :value => "US"} 
-    %input{:type => "hidden", :name => "bn", :value => "PP-BuyNowBF"} 
-    %input{:type => "image", :src => "/images/pay-now-ruby.png", :name => "submit", :alt => "PayPal - The safer, easier way to pay online!", :class => "pay-now"} 
+%form{ :action => "https://www.paypal.com/cgi-bin/webscr", :method => "post"}
+  %input{:type => "hidden", :name => "cmd", :value => "_xclick"}  
+  %input{:type => "hidden", :name => "business", :value => "payments@isotope11.com"}
+  %input{:type => "hidden", :name => "item_name", :value => "Isotope Eleven" } 
+  %input{:type => "hidden", :name => "item_number",  :value => "Services"} 
+  %input{:type => "hidden", :name => "no_shipping", :value => "0"}
+  %input{:type => "hidden", :name => "no_note", :value => "1"} 
+  %input{:type => "hidden", :name => "currency_code", :value => "USD"}
+  %input{:type => "hidden", :name => "lc", :value => "US"} 
+  %input{:type => "hidden", :name => "bn", :value => "PP-BuyNowBF"} 
+  %input{:type => "image", :src => "/images/pay-now-ruby.png", :name => "submit", :alt => "PayPal - The safer, easier way to pay online!", :class => "pay-now"} 
 
   %h2.typeface-js
     Payments
+  %p
+    Please note that you do not need a paypal account to make a payment.
+    %br
+    %br 
+    If you'd like to use a credit card, simply follow the link below and use the instructions on the left hand side of the payment screen.
 
-%p
-  Please note that you do not need a paypal account to make a payment.
-  %br
-  %br 
-  If you'd like to use a credit card, simply follow the link below and use the instructions on the left hand side of the payment screen.</p>
-
-%p
-  Click the image on the right to make a payment.
-	
+  %p
+    Click the image on the right to make a payment.
+    
