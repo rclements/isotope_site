@@ -31,6 +31,6 @@ ActionMailer::Base.smtp_settings = {
    :port => 25,
    :domain => "isotope11.com",
    :authentication => :login,
-   :user_name => "username",
-   :password => "password",
+   :user_name => "rclements",
+   :password => "phanhoob9",
 }
