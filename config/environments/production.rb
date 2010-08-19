@@ -27,10 +27,10 @@ config.action_view.cache_template_loading            = true
 # Enable threaded mode
 # config.threadsafe!
 ActionMailer::Base.smtp_settings = {
-   :address => "smtp.isotope11.com",
+   :address => "mail.isotope11.com",
    :port => 25,
    :domain => "isotope11.com",
    :authentication => :login,
    :user_name => "rclements",
-   :password => "phanhoob9",
+   :password => "phanhoob9"
 }
