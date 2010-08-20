@@ -9,7 +9,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100621170313) do
+ActiveRecord::Schema.define(:version => 20100820161135) do
+
+  create_table "contact_form_emails", :force => true do |t|
+    t.string "nickname"
+    t.text   "content"
+    t.text   "email"
+    t.string "company"
+  end
 
   create_table "file_attachments", :force => true do |t|
     t.integer  "user_id"
