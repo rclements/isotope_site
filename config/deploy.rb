@@ -1,9 +1,9 @@
-set :application, "isotope11.com"
+set :application, "development.isotope11.com"
 set :user, "robby"
 set :use_sudo, false
 
 set :repository,  "git@github.com:rclements/isotope_site.git"
-set :deploy_to, "/var/www/development.isotope11.com/#{application}"
+set :deploy_to, "/var/www/#{application}"
 set :scm, :git
 set :git_enable_submodules, 1
 set :git_username, "rclements"
