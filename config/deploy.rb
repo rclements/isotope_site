@@ -1,25 +1,25 @@
-set :application, "isotope11.com"
-set :user, "robby"
+require 'capistrano/ext/multistage'
+require 'config/recipes/content'
+
+set :application, "staging.isotope11.com"
+set :user, "deploy"
 set :use_sudo, false
 
 set :repository,  "git@github.com:rclements/isotope_site.git"
-set :deploy_to, "/var/www/#{application}"
+set :deploy_to, "/home/deploy/rails/isotope11/staging/#{application}"
+
+#SCM setup
 set :scm, :git
-set :git_enable_submodules, 1
+set :scm_verbose, true
 set :git_username, "rclements"
+set :deploy_via, :remote_cache
 
-#set :port, 3000
-set :location, "localhost"
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
+set :rails_env, 'production'
 
-role :web, "localhost"                          # Your HTTP server, Apache/etc
-role :app, "localhost"                          # This may be the same as your `Web` server
-role :db,  "localhost", :primary => true # This is where Rails migrations will run
-role :db,  "localhost"
+set :stages, %w(staging production)
+set :default_stage, "staging"
+set(:stage_path) { "#{latest_release}/config/stages/#{stage}" }
 
-# If you are using Passenger mod_rails uncomment this:
-# if you're still using the script/reapear helper you will need
-# these http://github.com/rails/irs_process_scripts
 
 namespace :deploy do
  desc "Restart Application"
@@ -38,42 +38,11 @@ namespace :deploy do
       put '', "#{shared_path}/config/database.yml" 
     end
 
-    desc "Make symlink for s3.yml" 
-    task :symlink_s3yaml do
-      run "ln -nfs #{shared_path}/config/s3.yml #{release_path}/config/s3.yml" 
-    end
-
-    desc "Create empty s3.yml in shared path" 
-    task :create_s3yaml do
-      run "mkdir -p #{shared_path}/config" 
-      put '', "#{shared_path}/config/s3.yml" 
-    end
-
-    desc "Make symlink for billing_on_rails.yml" 
-    task :symlink_billingyaml do
-      run "ln -nfs #{shared_path}/config/billing_on_rails.yml #{release_path}/config/billing_on_rails.yml" 
-    end
-
-    desc "Create empty billing_on_rails.yml in shared path" 
-    task :create_billingyaml do
-      run "mkdir -p #{shared_path}/config" 
-      put '', "#{shared_path}/config/billing_on_rails.yml" 
-    end
-  end
-
-  after 'deploy:setup', 'deploy:create_dbyaml'
-  after 'deploy:update_code', 'deploy:symlink_dbyaml'
-
-  after 'deploy:setup', 'deploy:create_s3yaml'
-  after 'deploy:update_code', 'deploy:symlink_s3yaml'
-
-  after 'deploy:setup', 'deploy:create_billingyaml'
-  after 'deploy:update_code', 'deploy:symlink_billingyaml'
-
   after "deploy", "deploy:cleanup"
 
    task :start do ; end
    task :stop do ; end
    task :restart, :roles => :app, :except => { :no_release => true } do
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
+  end
 end

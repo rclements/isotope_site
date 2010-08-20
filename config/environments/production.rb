@@ -1,3 +1,4 @@
+require 'smtp-tls'
 # Settings specified here will take precedence over those in config/environment.rb
 
 # The production environment is meant for finished, "live" apps.
@@ -27,10 +28,11 @@ config.action_view.cache_template_loading            = true
 # Enable threaded mode
 # config.threadsafe!
 ActionMailer::Base.smtp_settings = {
-   :address => "mail.isotope11.com",
-   :port => 25,
-   :domain => "isotope11.com",
-   :authentication => :login,
-   :user_name => "rclements",
-   :password => "phanhoob9"
+   :enable_starttls_auto => true,
+   :address => "smtp.gmail.com",
+   :port => 587,
+   :domain => "mail.isotope11.com",
+   :authentication => :plain,
+   :user_name => MAIL_USER_NAME,
+   :password => MAIL_USER_PASSWORD
 }
