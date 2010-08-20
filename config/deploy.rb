@@ -17,9 +17,6 @@ role :app, "localhost"                          # This may be the same as your `
 role :db,  "localhost", :primary => true # This is where Rails migrations will run
 role :db,  "localhost"
 
-# If you are using Passenger mod_rails uncomment this:
-# if you're still using the script/reapear helper you will need
-# these http://github.com/rails/irs_process_scripts
 
 namespace :deploy do
  desc "Restart Application"
@@ -37,30 +34,8 @@ namespace :deploy do
       run "mkdir -p #{shared_path}/config" 
       put '', "#{shared_path}/config/database.yml" 
     end
-
-    desc "Make symlink for s3.yml" 
-    task :symlink_s3yaml do
-      run "ln -nfs #{shared_path}/config/s3.yml #{release_path}/config/s3.yml" 
-    end
-
-    desc "Create empty s3.yml in shared path" 
-    task :create_s3yaml do
-      run "mkdir -p #{shared_path}/config" 
-      put '', "#{shared_path}/config/s3.yml" 
-    end
-
-    desc "Make symlink for billing_on_rails.yml" 
-    task :symlink_billingyaml do
-      run "ln -nfs #{shared_path}/config/billing_on_rails.yml #{release_path}/config/billing_on_rails.yml" 
-    end
-
-    desc "Create empty billing_on_rails.yml in shared path" 
-    task :create_billingyaml do
-      run "mkdir -p #{shared_path}/config" 
-      put '', "#{shared_path}/config/billing_on_rails.yml" 
-    end
-  end
-
+  
+    
   after 'deploy:setup', 'deploy:create_dbyaml'
   after 'deploy:update_code', 'deploy:symlink_dbyaml'
 
