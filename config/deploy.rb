@@ -1,5 +1,5 @@
 require 'capistrano/ext/multistage'
-require 'config/recipes/content'
+#require 'config/recipes/content'
 
 set :application, "staging.isotope11.com"
 set :user, "deploy"
