@@ -357,7 +357,7 @@ margin : -1px 0 0;
 
 div#header-slide div.wrap {
 height : 300px;
-background : url(images/header-bg.png) no-repeat 50% 0;
+/*background : url(images/header-bg.png) no-repeat 50% 0;*/
 }
 
 div#header-slide div#slide-holder {
