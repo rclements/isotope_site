@@ -1,5 +1,5 @@
 require 'capistrano/ext/multistage'
-#require 'config/recipes/content'
+# require 'config/recipes/content'
 
 set :application, "staging.isotope11.com"
 set :user, "deploy"
@@ -8,13 +8,16 @@ set :use_sudo, false
 set :repository,  "git@github.com:rclements/isotope_site.git"
 set :deploy_to, "/home/deploy/rails/isotope11/staging/#{application}"
 
-#SCM setup
-set :application, "development.isotope11.com"
-set :user, "robby"
-set :use_sudo, false
+# SCM setup
+set :scm, :git
+set :scm_verbose, true
+set :git_username, "rclements"
+set :deploy_via, :remote_cache
 
-set :repository,  "git@github.com:rclements/isotope_site.git"
-set :deploy_to, "/var/www/#{application}"
+set :rails_env, 'production'
+set :stages, %w(staging, production)
+set :default_stage, "staging"
+set(:stage_path) { "#{latest_release}/config/stages/#{stage}" }
 
 namespace :deploy do
  desc "Restart Application"
