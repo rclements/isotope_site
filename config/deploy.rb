@@ -9,16 +9,12 @@ set :repository,  "git@github.com:rclements/isotope_site.git"
 set :deploy_to, "/home/deploy/rails/isotope11/staging/#{application}"
 
 #SCM setup
-set :scm, :git
-set :scm_verbose, true
-set :git_username, "rclements"
-set :deploy_via, :remote_cache
+set :application, "development.isotope11.com"
+set :user, "robby"
+set :use_sudo, false
 
-set :rails_env, 'production'
-
-set :stages, %w(staging production)
-set :default_stage, "staging"
-set(:stage_path) { "#{latest_release}/config/stages/#{stage}" }
+set :repository,  "git@github.com:rclements/isotope_site.git"
+set :deploy_to, "/var/www/#{application}"
 
 namespace :deploy do
  desc "Restart Application"
@@ -36,6 +32,9 @@ namespace :deploy do
       run "mkdir -p #{shared_path}/config" 
       put '', "#{shared_path}/config/database.yml" 
     end
+    
+  after 'deploy:setup', 'deploy:create_dbyaml'
+  after 'deploy:update_code', 'deploy:symlink_dbyaml'
 
   after "deploy", "deploy:cleanup"
 
