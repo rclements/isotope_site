@@ -15,6 +15,6 @@ xx_test:
 production:
   adapter: mysql
   encoding: utf8
-  database: isotope_site_development
+  database: isotope_site_production
   username: root
   password: 

@@ -20,7 +20,6 @@ set :stages, %w(staging production)
 set :default_stage, "staging"
 set(:stage_path) { "#{latest_release}/config/stages/#{stage}" }
 
-
 namespace :deploy do
  desc "Restart Application"
     task :restart, :roles => :app do
