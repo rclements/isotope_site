@@ -16,7 +16,7 @@ class HomeController < ApplicationController
   def contact
     tab :contact
     if request.post?
-      ContactFormEmail.create({:nickname => params[:user]["nickname], :content => params[:text], :email => params[:user]["email"], :company => params[:company]}
+      ContactFormEmail.create({:nickname => params[:user]["nickname"], :content => params[:text], :email => params[:user]["email"], :company => params[:company]}
       UserMailer.deliver_contact_email(params[:user]["nickname"], params[:text], params[:user]["email"], params[:company])
       flash.now[:notice] = "Email sent successfully."
     end
